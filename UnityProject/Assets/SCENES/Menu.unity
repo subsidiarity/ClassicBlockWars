@@ -40073,15 +40073,15 @@ MonoBehaviour:
   mDepth: 10
   mSortingOrder: 0
   mClipOffset: {x: 0, y: 0}
---- !u!1 &1371002462
+--- !u!1 &1059311877
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1371002464}
-  - 114: {fileID: 1371002463}
+  - 4: {fileID: 1059311879}
+  - 114: {fileID: 1059311878}
   m_Layer: 0
   m_Name: _RealTime
   m_TagString: Untagged
@@ -40089,23 +40089,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1371002463
+--- !u!114 &1059311878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371002462}
+  m_GameObject: {fileID: 1059311877}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f973a5fc4c860aa8015a2dcfe7283af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1371002464
+--- !u!4 &1059311879
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371002462}
+  m_GameObject: {fileID: 1059311877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

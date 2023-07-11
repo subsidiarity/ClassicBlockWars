@@ -1,4 +1,6 @@
-class CompilationSettings
+using System;
+
+public class CompilationSettings
 {
     // Removes the bad word filter from game rooms.
     public const bool NoBadWordFilter = true;
@@ -52,4 +54,6 @@ class CompilationSettings
     public const float PlayerStickMaxRotation = 0.2f;
 
     public const float PlayerStickMaxDeltaDistance = 15.0f;
+
+    public const bool UseBetterCarExplosions = true;
 }

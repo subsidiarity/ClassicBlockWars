@@ -153,19 +153,28 @@ public class weaponGrenade : Photon.MonoBehaviour
 		{
 			colliderGrenade.enabled = false;
 		}
+
 		if (!settings.offlineMode && !base.photonView.isMine)
 		{
 			return;
 		}
-		damageAllEnemy();
-		damageAllPlayer();
-		damageAllCar();
-		DamageAllHelicopters();
+
+		foreach (areaDamage area_damage in arrDamage)
+		{
+			ExploisonManager.Explode(
+				gameObject.transform.position,
+				area_damage.radius,
+				area_damage.damage,
+				idPlayer
+			);
+		}
+
 		if (isRocket)
 		{
 			CancelInvoke("getDamage");
 			CancelInvoke("constantForceForFly");
 		}
+
 		if (!damageAtCollision || isRocket || isDetonator)
 		{
 			if (settings.offlineMode)
@@ -179,120 +188,6 @@ public class weaponGrenade : Photon.MonoBehaviour
 		}
 	}
 
-	private void damageAllEnemy()
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("enemy");
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (Vector3.Distance(base.transform.position, gameObject.transform.position) < areaDamage2.radius)
-				{
-					gameObject.GetComponent<EnemyBehavior>().getDamage(areaDamage2.damage);
-					break;
-				}
-			}
-		}
-	}
-
-	private void damageAllPlayer()
-	{
-		if (!settings.offlineMode && !base.photonView.isMine)
-		{
-			return;
-		}
-		GameObject[] array = GameObject.FindGameObjectsWithTag("Player");
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			PlayerBehavior component = gameObject.GetComponent<PlayerBehavior>();
-			if (!(component != null) || !(component.currentCar == null))
-			{
-				continue;
-			}
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (Vector3.Distance(base.transform.position, gameObject.transform.position) < areaDamage2.radius)
-				{
-					if (settings.offlineMode)
-					{
-						component.getDamage(areaDamage2.damage);
-					}
-					else if (base.photonView.isMine)
-					{
-						component.photonView.RPC("getDamage", PhotonTargets.All, areaDamage2.damage, idPlayer);
-					}
-					break;
-				}
-			}
-		}
-	}
-
-	private void damageAllCar()
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("Car");
-		CarBehavior carBehavior = null;
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (!(Vector3.Distance(base.transform.position, gameObject.transform.position) < areaDamage2.radius))
-				{
-					continue;
-				}
-				carBehavior = gameObject.GetComponent<CarBehavior>();
-				if (!(carBehavior == null))
-				{
-					if (settings.offlineMode)
-					{
-						carBehavior.getDamage(areaDamage2.damage);
-					}
-					else if (base.photonView.isMine)
-					{
-						carBehavior.photonView.RPC("getDamage", PhotonTargets.All, areaDamage2.damage);
-					}
-					break;
-				}
-			}
-		}
-	}
-
-	private void DamageAllHelicopters()
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("Helicopter");
-		HelicopterBehavior helicopterBehavior = null;
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (!(Vector3.Distance(base.transform.position, gameObject.transform.position) < areaDamage2.radius))
-				{
-					continue;
-				}
-				helicopterBehavior = gameObject.GetComponent<HelicopterBehavior>();
-				if (!(helicopterBehavior == null))
-				{
-					if (settings.offlineMode)
-					{
-						helicopterBehavior.getDamage(areaDamage2.damage);
-					}
-					else if (base.photonView.isMine)
-					{
-						helicopterBehavior.photonView.RPC("getDamage", PhotonTargets.All, areaDamage2.damage);
-					}
-					break;
-				}
-			}
-		}
-	}
-
 	[RPC]
 	private void explosion()
 	{
@@ -300,14 +195,17 @@ public class weaponGrenade : Photon.MonoBehaviour
 		{
 			colliderGrenade.enabled = false;
 		}
+
 		if (particlExplosion != null)
 		{
 			Object.Instantiate(particlExplosion, base.transform.position, Quaternion.identity);
 		}
+
 		if (objGrenade != null)
 		{
 			objGrenade.SetActive(false);
 		}
+
 		Invoke("remove", 1f);
 	}
 
@@ -321,6 +219,7 @@ public class weaponGrenade : Photon.MonoBehaviour
 		{
 			PhotonNetwork.Destroy(base.gameObject);
 		}
+
 		if (isDetonator)
 		{
 			GameController.thisScript.playerScript.RemoveGrenadeFromList(this);

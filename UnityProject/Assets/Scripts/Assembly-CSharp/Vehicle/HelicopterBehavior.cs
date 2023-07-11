@@ -366,7 +366,6 @@ public class HelicopterBehavior : EntityBehavior
 	{
 		Invoke("reset", 5f);
 		explosionObject.SetActive(false);
-		explosionObject.GetComponent<ExplosionBehavior>().isPlayed = false;
 	}
 
 	private void VklControlFromMain()

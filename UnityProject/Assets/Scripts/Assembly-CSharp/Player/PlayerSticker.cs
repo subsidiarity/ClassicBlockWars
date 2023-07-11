@@ -66,7 +66,7 @@ public class PlayerSticker : MonoBehaviour
         {
             UpdateGroundedSticker();
         }
-        else
+        else    
         {
             UpdateFlyingSticker();
         }
