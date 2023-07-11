@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Joystick
+  - GUI_PanelWalk
+  - Energy
+  - Car
+  - GUI_CameraZone
+  - ActivityIndicator
+  - Controller
+  - collidePoint
+  - Weapon
+  - 
+  - BonusBullet
+  - BonusHealth
+  - 
+  - 
+  - Vision
+  - Vrag
+  - pointExitCar
+  - star
+  - enemy
+  - ground
+  - GUI_Mission
+  - GUI_MissionButton
+  - Mission_Point
+  - GUI_Time
+  - GUI_IndicatorPoints
+  - Respawn_Stars
+  - Pickable_Coin
+  - pointForThrowingWeapon
+  - Mission_CheckpointRoot
+  - GUI_PoliceWarning
+  - GUI_LabelInfo
+  - Enemy_Respawn
+  - NavMeshZone
+  - Helicopter
+  - Sectors_Preloader
+  - 
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: UI
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: 2DGUI
+  User Layer 9: Car
+  User Layer 10: Level
+  User Layer 11: OtherCar
+  User Layer 12: PlayerLayer
+  User Layer 13: bonuseRespawn
+  User Layer 14: LodTree
+  User Layer 15: LOD_HALL
+  User Layer 16: cameraLayer
+  User Layer 17: navMeshZone
+  User Layer 18: collidePoint
+  User Layer 19: Explosion
+  User Layer 20: ourPlayer
+  User Layer 21: grenade
+  User Layer 22: carWithWeapon
+  User Layer 23: Feet
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: 
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0

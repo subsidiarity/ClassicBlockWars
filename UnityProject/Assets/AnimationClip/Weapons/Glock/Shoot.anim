@@ -1,0 +1,546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shoot
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: -.707106829, y: -2.71459951e-16, z: -3.06361256e-16, w: .707106829}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: -.707106829, y: -2.71459951e-16, z: -3.06361256e-16, w: .707106829}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 5.96029786e-08, y: .00747992331, z: -4.45838172e-10, w: .999972045}
+        inSlope: {x: -1.00026702e-10, y: .224391118, z: -1.33747529e-08, w: -.00167816959}
+        outSlope: {x: -1.00026702e-10, y: .224391118, z: -1.33747529e-08, w: -.00167816959}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 5.95896381e-08, y: .0224380698, z: -1.33741318e-09, w: .99974823}
+        inSlope: {x: -7.36579224e-08, y: .168262854, z: -8.1058511e-09, w: -.00346183474}
+        outSlope: {x: -7.36579224e-08, y: .168262854, z: -8.1058511e-09, w: -.00346183474}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: .707106888, y: 0, z: 0, w: .707106709}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: .707106888, y: 0, z: 0, w: .707106709}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 5.94738171e-24, y: -0, z: 1.65436123e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 5.94738171e-24, y: -0, z: 1.65436123e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 3.24171629e-23, y: 3.30872245e-24, z: 3.30872245e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 3.24171629e-23, y: 3.30872245e-24, z: 3.30872245e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: -5.55111181e-17, y: 1.34701209e-17, z: 2.14858592e-17, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: -5.55111181e-17, y: 1.34701209e-17, z: 2.14858592e-17, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/up
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: .207911685, y: -3.3905081e-09, z: 9.08810982e-09, w: .978147626}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: .207911685, y: -3.3905081e-09, z: 9.08810982e-09, w: .978147626}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: -2.67423307e-17, y: -1.65436123e-24, z: -1.65436123e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: -2.67423307e-17, y: -1.65436123e-24, z: -1.65436123e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator/oboima
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 5.08015813e-24, y: -3.12143642e-24, z: 3.12143642e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 5.08015813e-24, y: -3.12143642e-24, z: 3.12143642e-24, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: -.653281271, y: .344706744, z: -.166199669, w: .653282881}
+        inSlope: {x: 4.70558929, y: 4.15244627, z: 12.297843, w: -5.9484272}
+        outSlope: {x: 4.70558929, y: 4.15244627, z: 12.297843, w: -5.9484272}
+        tangentMode: 0
+      - time: .0333333611
+        value: {x: -.393401086, y: .276830286, z: .819855034, w: .310545176}
+        inSlope: {x: -.807375669, y: -5.17059898, z: 2.4930191, w: .807347775}
+        outSlope: {x: -.807375669, y: -5.17059898, z: 2.4930191, w: .807347775}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: -.707106829, y: -2.10734257e-08, z: 2.10734239e-08, w: .707106709}
+        inSlope: {x: -4.70558214, y: -4.15245104, z: -12.2978153, w: 5.94841814}
+        outSlope: {x: -4.70558214, y: -4.15245104, z: -12.2978153, w: 5.94841814}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)/Box080
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.25042811e-08, y: -.183727026, z: .455762923}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -2.25042811e-08, y: -.183727026, z: .455762923}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.250000119, y: .455762386, z: .178726807}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -.250000119, y: .455762386, z: .178726807}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .249999881, y: .572885633, z: .181324616}
+        inSlope: {x: -0, y: 1.51962459, z: .0779343396}
+        outSlope: {x: -0, y: -.151907608, z: -.00778998667}
+        tangentMode: 0
+      - time: .0333333611
+        value: {x: .249999881, y: .567822039, z: .181064948}
+        inSlope: {x: -0, y: -.151907608, z: -.00778998667}
+        outSlope: {x: -0, y: -1.36771679, z: -.0701443404}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: .249999881, y: .522231519, z: .178726807}
+        inSlope: {x: -0, y: -1.36771679, z: -.0701443404}
+        outSlope: {x: -.00037937134, y: .0134353526, z: -.00105056667}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.14891305e-08, y: .0690371171, z: .519250453}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -2.14891305e-08, y: .0690371171, z: .519250453}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.0150265656, y: -.0327508897, z: -.00635441765}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -.0150265656, y: -.0327508897, z: -.00635441765}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.77555756e-17, y: -.0362860374, z: -.0555463284}
+        inSlope: {x: -0, y: -0, z: -1.21639109}
+        outSlope: {x: -4.1633329e-16, y: -0, z: 1.37504196}
+        tangentMode: 0
+      - time: .0333333611
+        value: {x: 1.38777878e-17, y: -.0362860374, z: -.00971156359}
+        inSlope: {x: -4.1633329e-16, y: -0, z: 1.37504196}
+        outSlope: {x: 4.16334031e-16, y: -0, z: -.15865317}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: 2.77555756e-17, y: -.0362860374, z: -.0149999969}
+        inSlope: {x: 4.16334031e-16, y: -0, z: -.15865317}
+        outSlope: {x: -4.1633329e-16, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/up
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.0296416786, y: .0648549125, z: .0478662439}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -.0296416786, y: .0648549125, z: .0478662439}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0297174063, y: .0244435109, z: -.0211522281}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: .0297174063, y: .0244435109, z: -.0211522281}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator/oboima
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0498876162, y: .291706234, z: .0887398869}
+        inSlope: {x: 1.31386888, y: 3.58855319, z: 1.25380731}
+        outSlope: {x: 12.7784166, y: 2.98668694, z: .975108981}
+        tangentMode: 0
+      - time: .0333333611
+        value: {x: .475835174, y: .391262531, z: .121243551}
+        inSlope: {x: 12.7784166, y: 2.98668694, z: .975108981}
+        outSlope: {x: -14.092308, y: -6.57524538, z: -2.22891808}
+        tangentMode: 0
+      - time: .0666666627
+        value: {x: .00609203335, y: .172087908, z: .0469463542}
+        inSlope: {x: -14.092308, y: -6.57524538, z: -2.22891808}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)/Box080
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 2, y: 2, z: 2}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 2, y: 2, z: 2}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/up
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator/oboima
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: .529999971, y: .529999971, z: .529999971}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: .529999971, y: .529999971, z: .529999971}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.96046448e-08
+        value: {x: .999999702, y: .999999881, z: 1.00000024}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .0666667223
+        value: {x: .999999702, y: .999999881, z: 1.00000024}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Eagle/Eagle (2)/Arms_Mesh/2X/Gun/Group Locator (2)/Box080
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: .300184548, y: -.0754058361, z: -.11211431}
+    m_Extent: {x: .544223964, y: .554524183, z: .653591871}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

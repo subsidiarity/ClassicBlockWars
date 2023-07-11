@@ -1,0 +1,27 @@
+public enum idGuns
+{
+	GunUzi = 0,
+	GunShotgun = 1,
+	GunAk47 = 2,
+	GunMinigun = 3,
+	GunBat = 4,
+	GunKnife = 5,
+	GunMolotov = 6,
+	GunGrenade = 7,
+	GunChainSaw = 8,
+	GunColt = 9,
+	CunRevolver = 10,
+	Live = 11,
+	Ammo = 12,
+	Armor = 13,
+	Jetpack = 14,
+	SniperRifle = 15,
+	GunGlock18 = 16,
+	GunRpg = 17,
+	GunM16 = 18,
+	GunC4 = 19,
+	Thompson = 20,
+	Flamethrower = 21,
+	SPAS12 = 22,
+	Brass_knuckles = 23
+}

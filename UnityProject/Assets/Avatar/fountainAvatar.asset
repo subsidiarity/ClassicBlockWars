@@ -1,0 +1,8986 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!90 &9000000
+Avatar:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fountainAvatar
+  m_AvatarSize: 28348
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 2
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 3
+          m_AxesId: -1
+        - m_ParentId: 2
+          m_AxesId: -1
+        m_ID:
+        - 0
+        - 3234338154
+        - 4214428890
+        - 1856097361
+        - 931729559
+        - 1083056129
+        - 3649532347
+        - 2927640877
+        - 820302990
+        - 1206117400
+        - 3739923874
+        - 2850915636
+        - 961714341
+        - 1314236467
+        - 781328854
+        - 1502941504
+        - 3231465722
+        - 3080417388
+        - 704636367
+        - 1593365849
+        - 3354494179
+        - 2968958069
+        - 541698532
+        - 1464768882
+        - 96432661
+        - 1924678275
+        - 3954250553
+        - 2629182383
+        - 47363596
+        - 1976927898
+        - 3973895968
+        - 2614880182
+        - 191167015
+        - 2086914737
+        - 480527188
+        - 1805874114
+        - 4071236216
+        - 2242712302
+        - 466192205
+        - 1825486811
+        - 4123518561
+        - 2193676023
+        - 310365030
+        - 1702427632
+        - 1407571347
+        - 618849541
+        - 3186341055
+        - 3404497961
+        - 1418203530
+        - 596582684
+        - 3129372838
+        - 3447799856
+        - 1564368289
+        - 708406583
+        - 1258218706
+        - 1039782980
+        - 2767226366
+        - 3556226408
+        - 1301487819
+        - 982782045
+        - 2744992231
+        - 3566891377
+        - 1143303392
+        - 857889910
+        - 1641264913
+        - 383027079
+        - 2413680189
+        - 4175095467
+        - 1723757320
+        - 297354142
+        - 2293240356
+        - 4290192050
+        - 1862811427
+        - 403640245
+        - 2026407504
+        - 265270982
+        - 2529617788
+        - 3787577322
+        - 2141536841
+        - 144863967
+        - 2443912037
+        - 3870036979
+        - 1980960354
+        - 18104052
+        - 4283472543
+        - 2287446537
+        - 291437491
+        - 1717160741
+        - 4164771462
+        - 2402971152
+        - 372457386
+        - 1630801724
+        - 4052423341
+        - 2257330747
+        - 3863718878
+        - 2437716808
+        - 138791666
+        - 2135095908
+        - 3777392583
+        - 2518769489
+        - 254283499
+        - 2016362109
+        - 3901760492
+        - 2677478266
+        - 2605005537
+        - 3963751031
+        - 1967872973
+        - 38562651
+        - 2619932408
+        - 3945778798
+        - 1915133908
+        - 86093634
+        - 2510205651
+        - 3801711173
+        - 2187201440
+        - 4116265782
+        - 1817209484
+        - 458709530
+        - 2234765241
+        - 4063559471
+        - 1799204501
+        - 473603587
+        - 2357560210
+        - 4219646724
+        - 2842908771
+        - 3732170997
+        - 1199389007
+        - 813304281
+        - 2921241722
+        - 3642338540
+        - 1074855254
+        - 924306880
+        - 2812858449
+        - 3501187271
+        - 2959632674
+        - 3345963444
+        - 1583745038
+        - 694237336
+        - 3070602555
+        - 3221396909
+        - 1493945367
+        - 772603009
+        - 3199459600
+        - 3384070534
+        - 4280942565
+        - 2284769139
+        - 287809225
+        - 1713417823
+        - 4165221372
+        - 2403535722
+        - 373971664
+        - 1632463430
+        - 4059199447
+        - 2264221505
+        - 3862089380
+        - 2436234802
+        - 138194824
+        - 2134613790
+        - 3781102269
+        - 2522364459
+        - 256994193
+        - 2018925319
+        - 3907602070
+        - 2683205120
+        - 3441401191
+        - 3122179569
+        - 588381259
+        - 1410780381
+        - 3396491646
+        - 3178588648
+        - 612120658
+        - 1400572100
+        - 3284407637
+        - 3032688067
+        - 3557076006
+        - 2734922928
+        - 973786378
+        - 1292762524
+        - 3546900543
+        - 2758695081
+        - 1030162707
+        - 1247820165
+        - 3672056852
+        - 2916619394
+        - 1402777833
+        - 614170751
+        - 3180515781
+        - 3398820179
+        - 1425110256
+        - 603341926
+        - 3137279452
+        - 3455591754
+        - 1564948699
+        - 708839501
+        - 1250394536
+        - 1031844158
+        - 2760499332
+        - 3549351954
+        - 1307198897
+        - 988640551
+        - 2749637789
+        - 3571651595
+        - 1146882458
+        - 861616396
+        - 2567144632
+        - 3993285678
+        - 1997399444
+        - 709890
+        - 2658025633
+        - 3916001335
+        - 1885348237
+        - 124195099
+        - 2547518602
+        - 3772726300
+        - 2149103097
+        - 4146038127
+        - 1846990037
+        - 420602947
+        - 2272621024
+        - 4034019702
+        - 1769672908
+        - 511451226
+        - 2395160011
+        - 4190375261
+        - 2872436282
+        - 3694319276
+        - 1161529110
+        - 842839936
+        - 2891457059
+        - 3680441013
+        - 1112949519
+        - 894530457
+        - 2783866376
+        - 3538509470
+        - 2989414267
+        - 3307857901
+        - 1545647703
+        - 724010689
+        - 3041071970
+        - 3259245556
+        - 1531802190
+        - 743064280
+        - 3170197321
+        - 3421663199
+        - 4251926972
+        - 2322100522
+        - 325132432
+        - 1684410374
+        - 4194469285
+        - 2365961523
+        - 2245034519
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: -1.7112914E-15
+            y: 1
+            z: -2.1855694E-08
+            w: -7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 2.7887342E-15
+            y: 1
+            z: 3.774895E-08
+            w: -7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -0.004218952
+            y: 1.0225245
+            z: 0.4452777
+            w: 0
+          q:
+            x: -5.3385083E-08
+            y: 0.7071068
+            z: 0.7071068
+            w: 5.338508E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.6546874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.560156
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.4656248
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.3710938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.2765625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.1820312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.0874999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.9929688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.8984375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.8039062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.709375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.6148436
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.5203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.4257812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.33125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.2367187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.1421874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.0476563
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.953125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.8585937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.7640624
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.6695312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.5749999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.4804688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.3859375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.2914063
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.196875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.1023437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.0078125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.9132812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.81874996
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.7242187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.62968755
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.53515625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.44062504
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.34609377
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.25156254
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.15703125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.0625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.03203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.12656249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.22109374
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.31562498
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.41015625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.5046875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.5992187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.69374996
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.78828126
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.8828125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.97734374
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.071875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.1664063
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.2609375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.3554688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.4499999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.5445312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.6390624
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.7335937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.828125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.9226562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.0171874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.1117187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.20625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.3007812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.3953125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.4898436
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.584375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.6789062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.7734375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.8679688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.9624999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.0061717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.8928905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.7797656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.6664844
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.553359
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.440078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.326953
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.2136717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.100547
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.9872656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.8741403
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.760859
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.647734
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.534453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.421328
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.308047
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.194922
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.0816407
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.9685154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.855234
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.7421093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.628828
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.515703
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.402422
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.2892966
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.1760154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.0628905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.9496093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.8364842
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.723203
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.610078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.4967968
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.3836718
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.2703905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.1572657
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.0439844
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.9308593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.817578
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.704453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.5911717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.478047
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.3647656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.2516406
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.1383593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.0252342
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.9119531
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.7988281
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.6855469
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.5724218
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.4591405
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.3460156
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.2327343
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.0919532
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.2051562
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.3183594
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.4315624
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.5447656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.6579688
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.7711718
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.884375
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.997578
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.1107812
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.2239842
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.3371875
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.4503906
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.5635936
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.676797
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.79
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.903203
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.0164063
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.1296093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.2428124
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.3560154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.4692187
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.5824218
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.6956248
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.808828
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.9220312
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0352345
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.1484375
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.2616405
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.3748436
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.4880466
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.6012497
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.714453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.8276563
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.9408593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.0540624
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.1672654
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.2804685
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.393672
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.506875
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.620078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.733281
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.846484
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.959687
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.0728903
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.186094
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.299297
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.4125
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.525703
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.638906
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.752109
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.8653126
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -3.107031
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -3.0125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.9179688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.8234375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.7289062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.6343749
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.5398438
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.4453125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.3507812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.25625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.1617186
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.0671875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.9726562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.878125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.7835937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.6890625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.5945312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.5
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.4054687
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.3109375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.2164062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.1218749
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.0273438
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.93281245
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.8382812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.74375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.64921874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.5546875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.46015623
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.365625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.27109376
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.1765625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.08203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.012499999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.10703125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.20156254
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.2960938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.39062503
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.48515627
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.57968754
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.6742187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.76875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.86328125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.9578125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.0523437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.146875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.2414062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.3359375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.4304687
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.525
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.6195312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.7140625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.8085938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.9031249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.9976562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.0921874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.1867187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.28125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.3757813
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.4703124
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.5648437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.659375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.7539062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.8484375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.9429686
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.0375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.1320312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.2265625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.3210936
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.4156249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.5101562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.2649369E-08
+            y: 0.26740685
+            z: -0.049996976
+            w: 0
+          q:
+            x: -5.3385076E-08
+            y: 0.7071068
+            z: 0.70710677
+            w: 5.338508E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+    m_DefaultPose:
+      data:
+        m_X:
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: -1.7112914E-15
+            y: 1
+            z: -2.1855694E-08
+            w: -7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 2.7887342E-15
+            y: 1
+            z: 3.774895E-08
+            w: -7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -0.004218952
+            y: 1.0225245
+            z: 0.4452777
+            w: 0
+          q:
+            x: -5.3385083E-08
+            y: 0.7071068
+            z: 0.7071068
+            w: 5.338508E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.6546874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.560156
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.4656248
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.3710938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.2765625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.1820312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 3.0874999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.9929688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.8984375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.8039062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.709375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.6148436
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.5203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.4257812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.33125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.2367187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.1421874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 2.0476563
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.953125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.8585937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.7640624
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.6695312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.5749999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.4804688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.3859375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.2914063
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.196875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.1023437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 1.0078125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.9132812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.81874996
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.7242187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.62968755
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.53515625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.44062504
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.34609377
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.25156254
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.15703125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: 0.0625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.03203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.12656249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.22109374
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.31562498
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.41015625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.5046875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.5992187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.69374996
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.78828126
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.8828125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -0.97734374
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.071875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.1664063
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.2609375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.3554688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.4499999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.5445312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.6390624
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.7335937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.828125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -1.9226562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.0171874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.1117187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.20625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.3007812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.3953125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.4898436
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.584375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.6789062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.7734375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.8679688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.319844
+            y: -2.9624999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 7.7E-44
+            y: 4.2351647E-22
+            z: -1.81181E-22
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -7.0061717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.8928905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.7797656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.6664844
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.553359
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.440078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.326953
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.2136717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -6.100547
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.9872656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.8741403
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.760859
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.647734
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.534453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.421328
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.308047
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.194922
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -5.0816407
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.9685154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.855234
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.7421093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.628828
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.515703
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.402422
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.2892966
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.1760154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.0628905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.9496093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.8364842
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.723203
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.610078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.4967968
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.3836718
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.2703905
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.1572657
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -3.0439844
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.9308593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.817578
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.704453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.5911717
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.478047
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.3647656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.2516406
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.1383593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -2.0252342
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.9119531
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.7988281
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.6855469
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.5724218
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.4591405
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.3460156
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -1.2327343
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.0919532
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.2051562
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.3183594
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.4315624
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.5447656
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.6579688
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.7711718
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.884375
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 1.997578
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.1107812
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.2239842
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.3371875
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.4503906
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.5635936
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.676797
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.79
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.903203
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.0164063
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.1296093
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.2428124
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.3560154
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.4692187
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.5824218
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.6956248
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.808828
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.9220312
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0352345
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.1484375
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.2616405
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.3748436
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.4880466
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.6012497
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.714453
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.8276563
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.9408593
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.0540624
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.1672654
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.2804685
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.393672
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.506875
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.620078
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.733281
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.846484
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 5.959687
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.0728903
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.186094
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.299297
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.4125
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.525703
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.638906
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.752109
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 6.8653126
+            y: -3.3274608
+            z: -1.0225282
+            w: 0
+          q:
+            x: 2.9947134E-22
+            y: 2.994714E-22
+            z: 0.7071068
+            w: 0.7071067
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -3.107031
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -3.0125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.9179688
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.8234375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.7289062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.6343749
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.5398438
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.4453125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.3507812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.25625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.1617186
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -2.0671875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.9726562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.878125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.7835937
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.6890625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.5945312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.5
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.4054687
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.3109375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.2164062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.1218749
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -1.0273438
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.93281245
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.8382812
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.74375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.64921874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.5546875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.46015623
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.365625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.27109376
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.1765625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: -0.08203125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.012499999
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.10703125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.20156254
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.2960938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.39062503
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.48515627
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.57968754
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.6742187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.76875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.86328125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 0.9578125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.0523437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.146875
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.2414062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.3359375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.4304687
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.525
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.6195312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.7140625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.8085938
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.9031249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 1.9976562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.0921874
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.1867187
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.28125
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.3757813
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.4703124
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.5648437
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.659375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.7539062
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.8484375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 2.9429686
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.0375
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.1320312
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.2265625
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.3210936
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.4156249
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 7.3199215
+            y: 3.5101562
+            z: -1.0225282
+            w: 0
+          q:
+            x: 8.4703295E-22
+            y: -6.394921E-29
+            z: 1
+            w: 7.54979E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 2.2649369E-08
+            y: 0.26740685
+            z: -0.049996976
+            w: 0
+          q:
+            x: -5.3385076E-08
+            y: 0.7071068
+            z: 0.70710677
+            w: 5.338508E-08
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+    m_SkeletonNameIDArray:
+    - 0
+    - 3234338154
+    - 4214428890
+    - 268401402
+    - 1927817119
+    - 99555081
+    - 2632337075
+    - 3957421605
+    - 1971708806
+    - 42128144
+    - 2609611434
+    - 3968643644
+    - 2083762093
+    - 187998011
+    - 1811093214
+    - 485762632
+    - 2247981042
+    - 4076488548
+    - 1822347975
+    - 463069777
+    - 2190521323
+    - 4120347517
+    - 1697160940
+    - 305114746
+    - 1088308509
+    - 936998283
+    - 2932876337
+    - 3654751399
+    - 1202946308
+    - 817148306
+    - 2847793192
+    - 3736785086
+    - 1309003055
+    - 956497337
+    - 1506112604
+    - 784483530
+    - 3083539824
+    - 3234604518
+    - 1588113477
+    - 699367635
+    - 2963722601
+    - 3349275135
+    - 1461648494
+    - 538561784
+    - 377807515
+    - 1636028941
+    - 4169827255
+    - 2408428321
+    - 300492418
+    - 1726879252
+    - 4293347246
+    - 2296411960
+    - 408906409
+    - 1868061247
+    - 262132698
+    - 2023285580
+    - 3784422134
+    - 2526446176
+    - 150083523
+    - 2146772821
+    - 3875305199
+    - 2449163897
+    - 21257192
+    - 1984129918
+    - 615677977
+    - 1404416143
+    - 3401376053
+    - 3183202723
+    - 601834496
+    - 1423471766
+    - 3453035820
+    - 3134592442
+    - 711526443
+    - 1567504573
+    - 1034531160
+    - 1252950478
+    - 3550990452
+    - 2762006754
+    - 985953601
+    - 1304643031
+    - 3570013293
+    - 2748130555
+    - 863123818
+    - 1148520956
+    - 3123817879
+    - 3442908417
+    - 1413467323
+    - 590937133
+    - 3176950158
+    - 3394984216
+    - 1397885090
+    - 609564724
+    - 3035243941
+    - 3287094579
+    - 2737478870
+    - 3559763008
+    - 1294269946
+    - 975424876
+    - 2756139215
+    - 3544213593
+    - 1246312931
+    - 1028524405
+    - 2918257892
+    - 3673564274
+    - 2514211812
+    - 3806126962
+    - 2077602504
+    - 215122526
+    - 2461407229
+    - 3853592427
+    - 2092463825
+    - 197084743
+    - 2600491990
+    - 3959909184
+    - 2361451173
+    - 4224176691
+    - 1657701257
+    - 365540127
+    - 2343380668
+    - 4239005226
+    - 1705199504
+    - 312768262
+    - 2182834839
+    - 4112275969
+    - 2817372518
+    - 3505029616
+    - 1239666762
+    - 1055187164
+    - 2692773247
+    - 3615966697
+    - 1317934163
+    - 965289157
+    - 2838903124
+    - 3727755714
+    - 3203825703
+    - 3388059825
+    - 1358487819
+    - 671076765
+    - 3113960510
+    - 3466359976
+    - 1469392146
+    - 546444676
+    - 2955741205
+    - 3341432963
+    - 4055308000
+    - 2259691126
+    - 532248524
+    - 1757300570
+    - 4141535993
+    - 2178802287
+    - 416592853
+    - 1876132675
+    - 4285308626
+    - 2288758340
+    - 3903596449
+    - 2678789943
+    - 111298189
+    - 1906669083
+    - 4022461368
+    - 2563167022
+    - 30376596
+    - 1992864258
+    - 3866603411
+    - 2440077061
+    - 3280041058
+    - 3028698356
+    - 764351822
+    - 1518872024
+    - 3303846011
+    - 3018555629
+    - 719507799
+    - 1575346625
+    - 3445292112
+    - 3126709446
+    - 3667543331
+    - 2912777653
+    - 882123791
+    - 1133712537
+    - 3723985210
+    - 2867900844
+    - 872013846
+    - 1157550208
+    - 3561082129
+    - 2739338631
+    - 1560435180
+    - 704997754
+    - 3003922624
+    - 3289057366
+    - 1517264373
+    - 761834851
+    - 3026320601
+    - 3278294095
+    - 1406783966
+    - 618586440
+    - 1142515885
+    - 857626683
+    - 2853636481
+    - 3708827927
+    - 1131719860
+    - 879991842
+    - 2910506392
+    - 3665689870
+    - 1254285471
+    - 1036374025
+    - 2543676861
+    - 3768212779
+    - 2039680145
+    - 244595719
+    - 2431691172
+    - 3891763506
+    - 2130626696
+    - 167376926
+    - 2571560335
+    - 3997291801
+    - 2391170300
+    - 4186008682
+    - 1619541456
+    - 395251014
+    - 2313918693
+    - 4276922483
+    - 1743124937
+    - 283298143
+    - 2153632974
+    - 4149929048
+    - 2779451199
+    - 3534503849
+    - 1269132819
+    - 1017273989
+    - 2730937126
+    - 3586259888
+    - 1288219146
+    - 1003461276
+    - 2876278541
+    - 3698833307
+    - 3165666942
+    - 3417771752
+    - 1388207954
+    - 632909764
+    - 3151886951
+    - 3436890865
+    - 1439931211
+    - 584362973
+    - 2993403468
+    - 3312223962
+    - 4092700857
+    - 2230753327
+    - 503302549
+    - 1794701571
+    - 4103892128
+    - 2207996982
+    - 3834524860
+    m_Human:
+      data:
+        m_RootX:
+          t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID: []
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex:
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+        m_RightHand:
+          data:
+            m_HandBoneIndex:
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+        m_Handles: []
+        m_ColliderArray: []
+        m_HumanBoneIndex:
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        m_HumanBoneMass:
+        - 0.14545456
+        - 0.12121213
+        - 0.12121213
+        - 0.048484854
+        - 0.048484854
+        - 0.009696971
+        - 0.009696971
+        - 0.030303033
+        - 0.2909091
+        - 0.012121214
+        - 0.048484854
+        - 0.006060607
+        - 0.006060607
+        - 0.024242427
+        - 0.024242427
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.0024242427
+        - 0.0024242427
+        - 0
+        - 0
+        - 0
+        m_ColliderIndex:
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+    m_HumanSkeletonIndexArray: []
+    m_HumanSkeletonReverseIndexArray: []
+    m_RootMotionBoneIndex: -1
+    m_RootMotionBoneX:
+      t:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+      q:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+      s:
+        x: 1
+        y: 1
+        z: 1
+        w: 1
+    m_RootMotionSkeleton:
+      data:
+        m_Node: []
+        m_ID: []
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray: []
+  m_TOS:
+  - 0:
+  - 709890: water/streams/stream203
+  - 18104052: water/streams/stream79
+  - 38562651: water/streams/stream103
+  - 47363596: water/streams/stream24
+  - 86093634: water/streams/stream107
+  - 96432661: water/streams/stream20
+  - 124195099: water/streams/stream207
+  - 138194824: water/streams/stream152
+  - 138791666: water/streams/stream92
+  - 144863967: water/streams/stream75
+  - 191167015: water/streams/stream28
+  - 254283499: water/streams/stream96
+  - 256994193: water/streams/stream156
+  - 265270982: water/streams/stream71
+  - 287809225: water/streams/stream142
+  - 291437491: water/streams/stream82
+  - 297354142: water/streams/stream65
+  - 310365030: water/streams/stream38
+  - 325132432: water/streams/stream242
+  - 372457386: water/streams/stream86
+  - 373971664: water/streams/stream146
+  - 383027079: water/streams/stream61
+  - 403640245: water/streams/stream69
+  - 420602947: water/streams/stream213
+  - 458709530: water/streams/stream113
+  - 466192205: water/streams/stream34
+  - 473603587: water/streams/stream117
+  - 480527188: water/streams/stream30
+  - 511451226: water/streams/stream217
+  - 541698532: water/streams/stream18
+  - 588381259: water/streams/stream162
+  - 596582684: water/streams/stream45
+  - 603341926: water/streams/stream185
+  - 612120658: water/streams/stream166
+  - 614170751: water/streams/stream181
+  - 618849541: water/streams/stream41
+  - 694237336: water/streams/stream133
+  - 704636367: water/streams/stream14
+  - 708406583: water/streams/stream49
+  - 708839501: water/streams/stream189
+  - 724010689: water/streams/stream233
+  - 743064280: water/streams/stream237
+  - 772603009: water/streams/stream137
+  - 781328854: water/streams/stream10
+  - 813304281: water/streams/stream123
+  - 820302990: water/streams/stream04
+  - 842839936: water/streams/stream223
+  - 857889910: water/streams/stream59
+  - 861616396: water/streams/stream199
+  - 894530457: water/streams/stream227
+  - 924306880: water/streams/stream127
+  - 931729559: water/streams/stream00
+  - 961714341: water/streams/stream08
+  - 973786378: water/streams/stream172
+  - 982782045: water/streams/stream55
+  - 988640551: water/streams/stream195
+  - 1030162707: water/streams/stream176
+  - 1031844158: water/streams/stream191
+  - 1039782980: water/streams/stream51
+  - 1074855254: water/streams/stream126
+  - 1083056129: water/streams/stream01
+  - 1112949519: water/streams/stream226
+  - 1143303392: water/streams/stream58
+  - 1146882458: water/streams/stream198
+  - 1161529110: water/streams/stream222
+  - 1199389007: water/streams/stream122
+  - 1206117400: water/streams/stream05
+  - 1247820165: water/streams/stream177
+  - 1250394536: water/streams/stream190
+  - 1258218706: water/streams/stream50
+  - 1292762524: water/streams/stream173
+  - 1301487819: water/streams/stream54
+  - 1307198897: water/streams/stream194
+  - 1314236467: water/streams/stream09
+  - 1400572100: water/streams/stream167
+  - 1402777833: water/streams/stream180
+  - 1407571347: water/streams/stream40
+  - 1410780381: water/streams/stream163
+  - 1418203530: water/streams/stream44
+  - 1425110256: water/streams/stream184
+  - 1464768882: water/streams/stream19
+  - 1493945367: water/streams/stream136
+  - 1502941504: water/streams/stream11
+  - 1531802190: water/streams/stream236
+  - 1545647703: water/streams/stream232
+  - 1564368289: water/streams/stream48
+  - 1564948699: water/streams/stream188
+  - 1583745038: water/streams/stream132
+  - 1593365849: water/streams/stream15
+  - 1630801724: water/streams/stream87
+  - 1632463430: water/streams/stream147
+  - 1641264913: water/streams/stream60
+  - 1684410374: water/streams/stream243
+  - 1702427632: water/streams/stream39
+  - 1713417823: water/streams/stream143
+  - 1717160741: water/streams/stream83
+  - 1723757320: water/streams/stream64
+  - 1769672908: water/streams/stream216
+  - 1799204501: water/streams/stream116
+  - 1805874114: water/streams/stream31
+  - 1817209484: water/streams/stream112
+  - 1825486811: water/streams/stream35
+  - 1846990037: water/streams/stream212
+  - 1856097361: water/streams
+  - 1862811427: water/streams/stream68
+  - 1885348237: water/streams/stream206
+  - 1915133908: water/streams/stream106
+  - 1924678275: water/streams/stream21
+  - 1967872973: water/streams/stream102
+  - 1976927898: water/streams/stream25
+  - 1980960354: water/streams/stream78
+  - 1997399444: water/streams/stream202
+  - 2016362109: water/streams/stream97
+  - 2018925319: water/streams/stream157
+  - 2026407504: water/streams/stream70
+  - 2086914737: water/streams/stream29
+  - 2134613790: water/streams/stream153
+  - 2135095908: water/streams/stream93
+  - 2141536841: water/streams/stream74
+  - 2149103097: water/streams/stream210
+  - 2187201440: water/streams/stream110
+  - 2193676023: water/streams/stream37
+  - 2234765241: water/streams/stream114
+  - 2242712302: water/streams/stream33
+  - 2245034519: water/water 1
+  - 2257330747: water/streams/stream89
+  - 2264221505: water/streams/stream149
+  - 2272621024: water/streams/stream214
+  - 2284769139: water/streams/stream141
+  - 2287446537: water/streams/stream81
+  - 2293240356: water/streams/stream66
+  - 2322100522: water/streams/stream241
+  - 2357560210: water/streams/stream118
+  - 2365961523: water/streams/stream245
+  - 2395160011: water/streams/stream218
+  - 2402971152: water/streams/stream85
+  - 2403535722: water/streams/stream145
+  - 2413680189: water/streams/stream62
+  - 2436234802: water/streams/stream151
+  - 2437716808: water/streams/stream91
+  - 2443912037: water/streams/stream76
+  - 2510205651: water/streams/stream108
+  - 2518769489: water/streams/stream95
+  - 2522364459: water/streams/stream155
+  - 2529617788: water/streams/stream72
+  - 2547518602: water/streams/stream208
+  - 2567144632: water/streams/stream200
+  - 2605005537: water/streams/stream100
+  - 2614880182: water/streams/stream27
+  - 2619932408: water/streams/stream104
+  - 2629182383: water/streams/stream23
+  - 2658025633: water/streams/stream204
+  - 2677478266: water/streams/stream99
+  - 2683205120: water/streams/stream159
+  - 2734922928: water/streams/stream171
+  - 2744992231: water/streams/stream56
+  - 2749637789: water/streams/stream196
+  - 2758695081: water/streams/stream175
+  - 2760499332: water/streams/stream192
+  - 2767226366: water/streams/stream52
+  - 2783866376: water/streams/stream228
+  - 2812858449: water/streams/stream128
+  - 2842908771: water/streams/stream120
+  - 2850915636: water/streams/stream07
+  - 2872436282: water/streams/stream220
+  - 2891457059: water/streams/stream224
+  - 2916619394: water/streams/stream179
+  - 2921241722: water/streams/stream124
+  - 2927640877: water/streams/stream03
+  - 2959632674: water/streams/stream130
+  - 2968958069: water/streams/stream17
+  - 2989414267: water/streams/stream230
+  - 3032688067: water/streams/stream169
+  - 3041071970: water/streams/stream234
+  - 3070602555: water/streams/stream134
+  - 3080417388: water/streams/stream13
+  - 3122179569: water/streams/stream161
+  - 3129372838: water/streams/stream46
+  - 3137279452: water/streams/stream186
+  - 3170197321: water/streams/stream238
+  - 3178588648: water/streams/stream165
+  - 3180515781: water/streams/stream182
+  - 3186341055: water/streams/stream42
+  - 3199459600: water/streams/stream138
+  - 3221396909: water/streams/stream135
+  - 3231465722: water/streams/stream12
+  - 3234338154: fountain
+  - 3259245556: water/streams/stream235
+  - 3284407637: water/streams/stream168
+  - 3307857901: water/streams/stream231
+  - 3345963444: water/streams/stream131
+  - 3354494179: water/streams/stream16
+  - 3384070534: water/streams/stream139
+  - 3396491646: water/streams/stream164
+  - 3398820179: water/streams/stream183
+  - 3404497961: water/streams/stream43
+  - 3421663199: water/streams/stream239
+  - 3441401191: water/streams/stream160
+  - 3447799856: water/streams/stream47
+  - 3455591754: water/streams/stream187
+  - 3501187271: water/streams/stream129
+  - 3538509470: water/streams/stream229
+  - 3546900543: water/streams/stream174
+  - 3549351954: water/streams/stream193
+  - 3556226408: water/streams/stream53
+  - 3557076006: water/streams/stream170
+  - 3566891377: water/streams/stream57
+  - 3571651595: water/streams/stream197
+  - 3642338540: water/streams/stream125
+  - 3649532347: water/streams/stream02
+  - 3672056852: water/streams/stream178
+  - 3680441013: water/streams/stream225
+  - 3694319276: water/streams/stream221
+  - 3732170997: water/streams/stream121
+  - 3739923874: water/streams/stream06
+  - 3772726300: water/streams/stream209
+  - 3777392583: water/streams/stream94
+  - 3781102269: water/streams/stream154
+  - 3787577322: water/streams/stream73
+  - 3801711173: water/streams/stream109
+  - 3862089380: water/streams/stream150
+  - 3863718878: water/streams/stream90
+  - 3870036979: water/streams/stream77
+  - 3901760492: water/streams/stream98
+  - 3907602070: water/streams/stream158
+  - 3916001335: water/streams/stream205
+  - 3945778798: water/streams/stream105
+  - 3954250553: water/streams/stream22
+  - 3963751031: water/streams/stream101
+  - 3973895968: water/streams/stream26
+  - 3993285678: water/streams/stream201
+  - 4034019702: water/streams/stream215
+  - 4052423341: water/streams/stream88
+  - 4059199447: water/streams/stream148
+  - 4063559471: water/streams/stream115
+  - 4071236216: water/streams/stream32
+  - 4116265782: water/streams/stream111
+  - 4123518561: water/streams/stream36
+  - 4146038127: water/streams/stream211
+  - 4164771462: water/streams/stream84
+  - 4165221372: water/streams/stream144
+  - 4175095467: water/streams/stream63
+  - 4190375261: water/streams/stream219
+  - 4194469285: water/streams/stream244
+  - 4214428890: water
+  - 4219646724: water/streams/stream119
+  - 4251926972: water/streams/stream240
+  - 4280942565: water/streams/stream140
+  - 4283472543: water/streams/stream80
+  - 4290192050: water/streams/stream67

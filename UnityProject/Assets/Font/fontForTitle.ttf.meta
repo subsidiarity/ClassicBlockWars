@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f5f0db1c12584a74da51845fbabb9e4f
+timeCreated: 1688934711
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 2
+  name:
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames:
+  - Upheaval TT (BRK)
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  userData:

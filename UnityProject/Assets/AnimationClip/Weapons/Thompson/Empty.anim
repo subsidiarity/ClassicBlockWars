@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Empty
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.7073256, y: -0.0027042653, z: 0.001098266, w: 0.7068819}
+        inSlope: {x: 0.002626779, y: 0.032445867, z: -0.013179375, w: 0.002686682}
+        outSlope: {x: 0.002626779, y: 0.032445867, z: -0.013179375, w: 0.002686682}
+        tangentMode: 0
+      - time: 0.13333344
+        value: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+        inSlope: {x: 0.03050211, y: 0, z: 0, w: 0.030548602}
+        outSlope: {x: 0.03050211, y: 0, z: 0, w: 0.030548602}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_Right
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.25, y: -0.004999728, z: 4.5776366E-07}
+        inSlope: {x: 2.854862E-15, y: -2.9738146E-17, z: -0}
+        outSlope: {x: 6.6613924E-15, y: -6.93895E-17, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.25, y: -0.004999728, z: 4.5776366E-07}
+        inSlope: {x: 2.8548826E-15, y: -2.9738357E-17, z: -0}
+        outSlope: {x: 2.8548826E-15, y: -2.9738357E-17, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_Right
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.13333344
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_Right
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: -0.011426568, y: 0.013529867, z: 0.7401186}
+    m_Extent: {x: 0.5123793, y: 0.25543353, z: 0.92534614}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

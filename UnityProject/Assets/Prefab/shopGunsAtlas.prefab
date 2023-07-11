@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1405919530052578}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1405919530052578
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4439092804386810}
+  - 114: {fileID: 114154360193350197}
+  m_Layer: 0
+  m_Name: shopGunsAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4439092804386810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405919530052578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114154360193350197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405919530052578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 56c27399fc13f2b4b9a708e57b915179, type: 2}
+  mSprites:
+  - name: Guns_ak47
+    x: 802
+    y: 1610
+    width: 284
+    height: 438
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Guns_bat
+    x: 0
+    y: 337
+    width: 283
+    height: 427
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 6
+  - name: Guns_brass_knuckles
+    x: 0
+    y: 38
+    width: 239
+    height: 291
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 25
+    paddingTop: 75
+    paddingBottom: 72
+  - name: Guns_chainsaw
+    x: 862
+    y: 1184
+    width: 284
+    height: 418
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 18
+    paddingBottom: 2
+  - name: Guns_desertEagl
+    x: 255
+    y: 1282
+    width: 248
+    height: 370
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 18
+    paddingTop: 35
+    paddingBottom: 33
+  - name: Guns_flamethrower
+    x: 511
+    y: 1411
+    width: 283
+    height: 438
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Guns_glock
+    x: 0
+    y: 1653
+    width: 199
+    height: 395
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 44
+    paddingRight: 41
+    paddingTop: 26
+    paddingBottom: 17
+  - name: Guns_grenade
+    x: 247
+    y: 65
+    width: 249
+    height: 264
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 18
+    paddingTop: 90
+    paddingBottom: 84
+  - name: Guns_knife
+    x: 1154
+    y: 1223
+    width: 263
+    height: 406
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 11
+    paddingTop: 23
+    paddingBottom: 9
+  - name: Guns_m16
+    x: 576
+    y: 969
+    width: 278
+    height: 434
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 0
+  - name: Guns_minigun
+    x: 284
+    y: 862
+    width: 284
+    height: 412
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 14
+    paddingBottom: 12
+  - name: Guns_molotov
+    x: 207
+    y: 1660
+    width: 279
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 24
+    paddingBottom: 26
+  - name: Guns_revolver
+    x: 1094
+    y: 1637
+    width: 246
+    height: 411
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 16
+    paddingBottom: 11
+  - name: Guns_rpg
+    x: 291
+    y: 428
+    width: 281
+    height: 426
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 9
+    paddingBottom: 3
+  - name: Guns_shotgun
+    x: 997
+    y: 311
+    width: 284
+    height: 426
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 5
+  - name: Guns_shotgun_spas12
+    x: 871
+    y: 745
+    width: 279
+    height: 431
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 4
+    paddingTop: 7
+    paddingBottom: 0
+  - name: Guns_sniper
+    x: 707
+    y: 78
+    width: 282
+    height: 438
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Guns_thompson
+    x: 580
+    y: 524
+    width: 283
+    height: 437
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 0
+  - name: Guns_uzi
+    x: 0
+    y: 772
+    width: 276
+    height: 349
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 47
+    paddingBottom: 42
+  - name: shop_ammunition
+    x: 1348
+    y: 1885
+    width: 185
+    height: 163
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 10
+    paddingTop: 87
+    paddingBottom: 87
+  - name: shop_c4
+    x: 494
+    y: 1857
+    width: 260
+    height: 191
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 116
+    paddingBottom: 131
+  - name: shop_jetpack
+    x: 0
+    y: 1129
+    width: 231
+    height: 298
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 28
+    paddingTop: 69
+    paddingBottom: 71
+  - name: shop_live
+    x: 0
+    y: 1435
+    width: 247
+    height: 210
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 18
+    paddingTop: 115
+    paddingBottom: 113
+  - name: shop_protection
+    x: 504
+    y: 162
+    width: 195
+    height: 258
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 43
+    paddingRight: 46
+    paddingTop: 87
+    paddingBottom: 93
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

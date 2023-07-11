@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b2ff862084fa5dae619c96b29b0bf2, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier:
+  HostType: 1
+  ServerAddress: app-us.exitgamescloud.com
+  ServerPort: 5055
+  AppID: 92dd88eb-e976-40e6-9333-be17704cebd5
+  PingCloudServersOnAwake: 0
+  RpcList:
+  - Marco
+  - Polo
+  - TaggedPlayer
+  - SetPosition
+  - Chat
+  - InstantiateRpc
+  - OnAwakeRPC
+  - DestroyRpc
+  - switchWeapon
+  - broadcastWeaponChange
+  - updateAnimations
+  - broadcastAnimation
+  - updateWeapon
+  - getDamage
+  - setName
+  - updateName
+  - broadcastShoot
+  - broadcastWeaponState
+  - broadcastReload
+  - dead
+  - initSkin
+  - switchWeaponTexture
+  - HoleRPC
+  - updatePoints
+  - setIdPlayerInCar
+  - broadcastWeaponAnimation
+  - lowDamageCar
+  - highDamageCar
+  - startParticleDamage
+  - deadWithDelay
+  - addMessageToList
+  - reset
+  - ActivateJetpack
+  - UpdateJetpackParticle
+  - EnableJetpackParticle
+  - DisableJetpackParticle
+  - PlayJetpackSound
+  - StopJetpackSound
+  - throwGrenadeAll
+  - explosion
+  - shootFromCarOnline
+  - explosionFromWeapon
+  - setCountBullets
+  - setActivObjArmor
+  - StartLongDamage
+  - animFlyDown
+  - animDropAfterFlyDown
+  - alreadyDontFly
+  - animFlyDownOnline
+  - animDropAfterFlyDownOnline
+  - alreadyDontFlyOnline
+  - SetPositionCarOnline
+  - GrenadeThrowOnline
+  - setIdPlayerInHelic
+  - animationHelicUpOnline
+  - animationHelicDownOnline
+  - SetPositionHelicOnline
+  - ResetCarWithDelayOnline
+  - CancelResetCarWithDelayOnline
+  DisableAutoOpenWizard: 0
