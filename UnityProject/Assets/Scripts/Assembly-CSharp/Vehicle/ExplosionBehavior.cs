@@ -10,7 +10,7 @@ public class ExplosionBehavior : MonoBehaviour
 
 	private void Start()
 	{
-		ExploisonManager.Explode(
+		ExplosionManager.Explode(
 			gameObject.transform.position,
 			gameObject.GetComponent<SphereCollider>().radius,
 			1000,

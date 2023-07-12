@@ -342,7 +342,9 @@ public class PlayerBehavior : EntityBehavior
 
 	private void updateTarget()
 	{
-		if (enemyWatcher != null && weaponManager != null && weaponManager.currentWeaponScript != null && !weaponManager.currentWeaponScript.areaDamage)
+		if (enemyWatcher != null && weaponManager != null
+		&& weaponManager.currentWeaponScript != null
+		&& !weaponManager.currentWeaponScript.areaDamage)
 		{
 			currentTarget = enemyWatcher.targetPlayer;
 		}

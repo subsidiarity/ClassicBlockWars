@@ -428,7 +428,6 @@ public class CarBehavior : EntityBehavior
 	{
 		Invoke("reset", 5f);
 		explosionObject.SetActive(false);
-		explosionObject.GetComponent<ExplosionBehavior>().isPlayed = false;
 	}
 
 	private void Update()
@@ -800,9 +799,17 @@ public class CarBehavior : EntityBehavior
 	{
 		Debug.Log("explosionFromWeapon " + base.photonView.viewID);
 		Object.Instantiate(particleExposionWeapon, pointForExplosion, Quaternion.identity);
-		damageAllCar(pointForExplosion);
-		damageAllEnemy(pointForExplosion);
-		damageAllPlayer(pointForExplosion);
+
+		foreach (areaDamage area_damage in arrDamage)
+		{
+			ExplosionManager.Explode(
+				pointForExplosion,
+				area_damage.radius,
+				area_damage.damage,
+				idPlayerInCar,
+				false
+			);
+		}
 	}
 
 	private void vklShoot()
@@ -811,83 +818,6 @@ public class CarBehavior : EntityBehavior
 		if (particleShoot != null)
 		{
 			particleShoot.SetActive(false);
-		}
-	}
-
-	private void damageAllEnemy(Vector3 pointDamage)
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("enemy");
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (Vector3.Distance(pointDamage, gameObject.transform.position) < areaDamage2.radius)
-				{
-					gameObject.GetComponent<EnemyBehavior>().getDamage(areaDamage2.damage);
-					break;
-				}
-			}
-		}
-	}
-
-	private void damageAllPlayer(Vector3 pointDamage)
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("Player");
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			PlayerBehavior component = gameObject.GetComponent<PlayerBehavior>();
-			if (!(component != null) || !(component.currentCar == null) || component.inCar)
-			{
-				continue;
-			}
-			Debug.Log("damageAllPlayer tank =" + component.inCar + " " + component.photonView.viewID);
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (Vector3.Distance(pointDamage, gameObject.transform.position) < areaDamage2.radius)
-				{
-					if (settings.offlineMode)
-					{
-						component.getDamage(areaDamage2.damage);
-						break;
-					}
-					component.photonView.RPC("getDamage", PhotonTargets.All, areaDamage2.damage, idPlayerInCar);
-					break;
-				}
-			}
-		}
-	}
-
-	private void damageAllCar(Vector3 pointDamage)
-	{
-		GameObject[] array = GameObject.FindGameObjectsWithTag("Car");
-		CarBehavior carBehavior = null;
-		GameObject[] array2 = array;
-		foreach (GameObject gameObject in array2)
-		{
-			areaDamage[] array3 = arrDamage;
-			foreach (areaDamage areaDamage2 in array3)
-			{
-				if (!(Vector3.Distance(pointDamage, gameObject.transform.position) < areaDamage2.radius))
-				{
-					continue;
-				}
-				carBehavior = gameObject.GetComponent<CarBehavior>();
-				if (!(carBehavior == null))
-				{
-					if (settings.offlineMode)
-					{
-						carBehavior.getDamage(areaDamage2.damage);
-						break;
-					}
-					Debug.Log("damageAllCar curCarScript.photonView=" + carBehavior.photonView.viewID);
-					carBehavior.photonView.RPC("getDamage", PhotonTargets.All, areaDamage2.damage);
-					break;
-				}
-			}
 		}
 	}
 

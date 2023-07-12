@@ -161,7 +161,7 @@ public class weaponGrenade : Photon.MonoBehaviour
 
 		foreach (areaDamage area_damage in arrDamage)
 		{
-			ExploisonManager.Explode(
+			ExplosionManager.Explode(
 				gameObject.transform.position,
 				area_damage.radius,
 				area_damage.damage,

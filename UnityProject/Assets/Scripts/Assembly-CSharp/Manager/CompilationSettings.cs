@@ -54,6 +54,4 @@ public class CompilationSettings
     public const float PlayerStickMaxRotation = 0.2f;
 
     public const float PlayerStickMaxDeltaDistance = 15.0f;
-
-    public const bool UseBetterCarExplosions = true;
 }

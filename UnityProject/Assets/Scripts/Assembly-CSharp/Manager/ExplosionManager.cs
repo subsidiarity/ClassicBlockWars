@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ExploisonManager
+public class ExplosionManager
 {
 	/*
 	 * This function takes these odd parameters to keep compliant with the original explosion
