@@ -5516,7 +5516,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 955}
   m_Layer: 0
-  m_Name: Sector_22_NATO
+  m_Name: Sector_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

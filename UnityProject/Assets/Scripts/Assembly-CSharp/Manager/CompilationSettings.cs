@@ -2,6 +2,8 @@ using System;
 
 public class CompilationSettings
 {
+    public const bool Debug = true;
+
     // Removes the bad word filter from game rooms.
     public const bool NoBadWordFilter = true;
 
@@ -18,9 +20,14 @@ public class CompilationSettings
     public const bool UseMouseShoot = true;
 
     // These will overide all sector loading distances with a custom amount.
-    public const bool OverideSectorLoads = true;
+    public const bool OverideSectorLoads = false;
     public const int SectorLoadDistance = 10000;
     public const int SectorUnloadDistance = 10005;
+
+    public const bool LoadSectorsOnStart = true;
+
+    // 0 for none. This is a band aid solution for async level loading only being in unity pro.
+    public const int SectorCacheSize = 23;
 
     // This will be used to automatically set graphics settings in game.
     public const bool DeviceIsWeakOveride = false;

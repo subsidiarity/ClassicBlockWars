@@ -2,8 +2,8 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/SCENES/FirstLoading.unity
@@ -56,6 +56,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sectors/Sector_20.unity
   - enabled: 1
-    path: Assets/Scenes/Sectors/Sector_21zontiki.unity
+    path: Assets/SCENES/Sectors/Sector_21.unity
   - enabled: 1
-    path: Assets/Scenes/Sectors/Sector_22_NATO.unity
+    path: Assets/SCENES/Sectors/Sector_22.unity

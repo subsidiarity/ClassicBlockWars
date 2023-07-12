@@ -9,10 +9,10 @@ public class PreloadSector : MonoBehaviour
 
 	public int radiusForUnload = 130;
 
-	public statusSector curStatus = statusSector.unload;
+	public statusSector curStatus = statusSector.unloaded;
 
 	[HideInInspector]
-	public bool isUnloadSector;
+	public bool shouldUnloadSector;
 
 	private GameObject objPlayer;
 
@@ -20,31 +20,33 @@ public class PreloadSector : MonoBehaviour
 
 	public EnemyType[] possibleEnemyTypes;
 
+	private bool loadedOnStart = false;
+
 	private void Start()
 	{
-		curStatus = statusSector.unload;
+		curStatus = statusSector.unloaded;
+
 		if (nameSector == null || nameSector == string.Empty)
 		{
 			nameSector = base.gameObject.name;
 		}
+
+		// TODO: This should be a compilation settings not a runtime settings.
 		if (!settings.includePreloadingSectors)
 		{
-			SectorCreate[] array = Object.FindObjectsOfType<SectorCreate>();
-			SectorCreate[] array2 = array;
-			foreach (SectorCreate sectorCreate in array2)
+			foreach (SectorCreate sectorCreate in Object.FindObjectsOfType<SectorCreate>())
 			{
 				if (sectorCreate.name.Equals(nameSector))
 				{
-					curStatus = statusSector.load;
+					curStatus = statusSector.loaded;
 					return;
 				}
 			}
 			ManagerPreloadingSectors.PreloadAssets(this);
 			return;
 		}
-		Transform[] componentsInChildren = base.gameObject.GetComponentsInChildren<Transform>();
-		Transform[] array3 = componentsInChildren;
-		foreach (Transform transform in array3)
+
+		foreach (Transform transform in base.gameObject.GetComponentsInChildren<Transform>())
 		{
 			if (!transform.gameObject.Equals(base.gameObject))
 			{
@@ -61,47 +63,62 @@ public class PreloadSector : MonoBehaviour
 
 	private void Update()
 	{
+		if (CompilationSettings.LoadSectorsOnStart
+		&& !loadedOnStart)
+		{
+			if (curStatus != statusSector.loaded)
+			{
+				ManagerPreloadingSectors.PreloadAssets(this);
+			}
+			else
+			{
+				loadedOnStart = true;
+			}
+		}
+
 		if (!settings.includePreloadingSectors)
 		{
-			if (curStatus != 0 && curStatus != statusSector.process_load && curStatus != statusSector.process_unload)
+			if (curStatus == statusSector.unloaded)
 			{
 				ManagerPreloadingSectors.PreloadAssets(this);
 			}
 		}
 		else
 		{
-			proveritStatusSector();
+			UpdateSectorStatus();
 		}
 	}
 
-	public void proveritStatusSector()
+	public void UpdateSectorStatus()
 	{
 		if (objPlayer == null && GameController.thisScript != null)
 		{
 			objPlayer = GameController.thisScript.myPlayer;
 		}
+
 		if (objPlayer == null)
 		{
 			return;
 		}
+
 		Vector2 a = new Vector2(objPlayer.transform.position.x, objPlayer.transform.position.z);
-		bool flag = false;
+		bool in_distance_for_load = false;
+
 		foreach (Vector2 item in listPointForLoad)
 		{
 			if (Vector2.Distance(a, item) < (float)radiusForLoad)
 			{
-				flag = true;
+				in_distance_for_load = true;
 				break;
 			}
 		}
-		if (flag)
+
+		if (in_distance_for_load)
 		{
-			if (curStatus == statusSector.unload)
+			if (curStatus == statusSector.unloaded)
 			{
 				ManagerPreloadingSectors.thisScript.AddSectorToStackList(this);
-			}
-			if (curStatus != 0 && curStatus != statusSector.process_load && curStatus != statusSector.process_unload)
-			{
+
 				if (!ManagerPreloadingSectors.isLoading)
 				{
 					ManagerPreloadingSectors.PreloadAssets(this);
@@ -109,12 +126,10 @@ public class PreloadSector : MonoBehaviour
 				return;
 			}
 		}
-		else if (curStatus != statusSector.process_unload && curStatus != statusSector.unload)
+		else if ((shouldUnloadSector && curStatus == statusSector.loaded)
+		|| curStatus < statusSector.unloaded)
 		{
-			isUnloadSector = true;
-		}
-		if (isUnloadSector && curStatus == statusSector.load)
-		{
+			shouldUnloadSector = true;
 			ManagerPreloadingSectors.thisScript.unloadSector(this);
 		}
 	}
