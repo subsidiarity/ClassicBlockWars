@@ -99,9 +99,9 @@ public abstract class UIRect : MonoBehaviour
 				{
 					return rect.GetSides(relativeTo);
 				}
-				if (target.camera != null)
+				if (target.GetComponent<Camera>() != null)
 				{
-					return target.camera.GetSides(relativeTo);
+					return target.GetComponent<Camera>().GetSides(relativeTo);
 				}
 			}
 			return null;

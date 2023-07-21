@@ -68,7 +68,7 @@ public class CarBehavior : EntityBehavior
 	public Transform cameraPoint;
 
 	[HideInInspector]
-	public NavMeshObstacle navMeshCollider;
+	public UnityEngine.AI.NavMeshObstacle navMeshCollider;
 
 	[HideInInspector]
 	public BoxCollider colliderEnemy;
@@ -104,7 +104,7 @@ public class CarBehavior : EntityBehavior
 	private void Awake()
 	{
 		newDrivingScript = GetComponent<NewDriving>();
-		navMeshCollider = GetComponent<NavMeshObstacle>();
+		navMeshCollider = GetComponent<UnityEngine.AI.NavMeshObstacle>();
 		colliderEnemy = GetComponent<BoxCollider>();
 		explosionObject.SetActive(false);
 		initialCarPosition = base.transform.position;
@@ -775,7 +775,7 @@ public class CarBehavior : EntityBehavior
 			particleShoot.SetActive(true);
 		}
 		Debug.Log("PlayShoooot");
-		objCar.animation.Play("Shoot");
+		objCar.GetComponent<Animation>().Play("Shoot");
 		if (!settings.offlineMode && !isMinePlayer)
 		{
 			return;

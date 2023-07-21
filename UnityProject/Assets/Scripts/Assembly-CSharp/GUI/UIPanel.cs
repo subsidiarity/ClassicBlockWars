@@ -211,7 +211,7 @@ public class UIPanel : UIRect
 	{
 		get
 		{
-			return mCam != null && mCam.isOrthoGraphic;
+			return mCam != null && mCam.orthographic;
 		}
 	}
 
@@ -219,7 +219,7 @@ public class UIPanel : UIRect
 	{
 		get
 		{
-			if (mHalfPixelOffset && mCam != null && mCam.isOrthoGraphic)
+			if (mHalfPixelOffset && mCam != null && mCam.orthographic)
 			{
 				float num = 1f / GetWindowSize().y / mCam.orthographicSize;
 				return new Vector3(0f - num, num);
@@ -666,8 +666,12 @@ public class UIPanel : UIRect
 	{
 		mGo = base.gameObject;
 		mTrans = base.transform;
-		mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.XBOX360 || Application.platform == RuntimePlatform.WindowsWebPlayer || Application.platform == RuntimePlatform.WindowsEditor;
-		if (mHalfPixelOffset)
+        //mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer
+        //	|| Application.platform == RuntimePlatform.XBOX360
+        //	|| Application.platform == RuntimePlatform.WindowsWebPlayer
+        //	|| Application.platform == RuntimePlatform.WindowsEditor;
+        mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsEditor;
+        if (mHalfPixelOffset)
 		{
 			mHalfPixelOffset = SystemInfo.graphicsShaderLevel < 40;
 		}
@@ -697,7 +701,7 @@ public class UIPanel : UIRect
 	protected override void OnInit()
 	{
 		base.OnInit();
-		if (base.rigidbody == null)
+		if (base.GetComponent<Rigidbody>() == null)
 		{
 			Rigidbody rigidbody = base.gameObject.AddComponent<Rigidbody>();
 			rigidbody.isKinematic = true;

@@ -93,9 +93,9 @@ public class AIRespawnController : MonoBehaviour
 
 	private IEnumerator Freeze(float seconds)
 	{
-		base.gameObject.rigidbody.freezeRotation = true;
-		base.gameObject.rigidbody.velocity = Vector3.zero;
+		base.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
+		base.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
 		yield return new WaitForSeconds(seconds);
-		base.gameObject.rigidbody.freezeRotation = false;
+		base.gameObject.GetComponent<Rigidbody>().freezeRotation = false;
 	}
 }

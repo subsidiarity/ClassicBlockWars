@@ -241,8 +241,9 @@ public class PlayerBehavior : EntityBehavior
 
 	private void InitSticky()
 	{
-		// TODO: This should be enabling and disabling the script too.
-		GameObject.Find("FeetTrigger").GetComponent<BoxCollider>().enabled = true;
+		// TODO: This should be enabling and disabling the script too
+		return; // TODO: Redo this.
+        GameObject.Find("FeetTrigger").GetComponent<BoxCollider>().enabled = true;
 		Debug.Log("Started trigger");
 	}
 
@@ -258,7 +259,7 @@ public class PlayerBehavior : EntityBehavior
 		deadHands = weaponManager.weaponHolder.transform.Find("deadHands").gameObject;
 		aimObject = enemyCollider.transform.Find("AimLabel").gameObject;
 		deadHands.SetActive(false);
-		GetComponent<NavMeshObstacle>().enabled = true;
+		GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled = true;
 		tController.jetpack.Activate();
 		colliderEnemyPlayer.enabled = false;
 		initIntefaceBindings();
@@ -375,14 +376,14 @@ public class PlayerBehavior : EntityBehavior
 			enemyWatcher = enemyCollider.GetComponent<EnemyWatcher>();
 			collisionLayer = enemyWatcher.GetComponent<EnemyWatcher>().collisionLayer;
 			tController = GetComponent<ThirdPersonController>();
-			deadHands = weaponManager.weaponHolder.transform.FindChild("deadHands").gameObject;
+			deadHands = weaponManager.weaponHolder.transform.Find("deadHands").gameObject;
 			aimObject = enemyCollider.transform.Find("AimLabel").gameObject;
 			deadHands.SetActive(false);
 			colliderEnemyPlayer.enabled = false;
 			initIntefaceBindings();
 			Health = 100;
 			Armor = Load.LoadInt(settings.keyArmor);
-			GetComponent<NavMeshObstacle>().enabled = false;
+			GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled = false;
 			base.photonView.RPC("ActivateJetpack", PhotonTargets.All);
 			return;
 		}
@@ -585,8 +586,8 @@ public class PlayerBehavior : EntityBehavior
 		}
 		else
 		{
-			prefabPlayer.animation.Play("Dead");
-			deadHands.transform.GetChild(0).animation.Play("Dead");
+			prefabPlayer.GetComponent<Animation>().Play("Dead");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Dead");
 		}
 		if (idKiller != idMachine && photonView != null)
 		{
@@ -597,8 +598,8 @@ public class PlayerBehavior : EntityBehavior
 
 	private void animDeadFromCarAfterDamage()
 	{
-		prefabPlayer.animation.Play("Dead_Lay");
-		deadHands.transform.GetChild(0).animation.Play("Dead_Lay");
+		prefabPlayer.GetComponent<Animation>().Play("Dead_Lay");
+		deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Dead_Lay");
 	}
 
 	public override void dead()
@@ -621,8 +622,8 @@ public class PlayerBehavior : EntityBehavior
 				weaponManager = GetComponent<WeaponManager>();
 			}
 			weaponManager.CurrentWeapon.SetActive(false);
-			prefabPlayer.animation.Play("Dead");
-			deadHands.transform.GetChild(0).animation.Play("Dead");
+			prefabPlayer.GetComponent<Animation>().Play("Dead");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Dead");
 			GameController.thisScript.offlineKolDied++;
 			Invoke("reset", 1f);
 		}
@@ -673,14 +674,14 @@ public class PlayerBehavior : EntityBehavior
 				GameController.thisScript.carScript.exitFromCarOnline();
 			}
 			base.transform.position = position;
-			prefabPlayer.animation.Play("Idle");
+			prefabPlayer.GetComponent<Animation>().Play("Idle");
 			health = 100;
 			GameController.thisScript.lbHealth.text = health.ToString();
 		}
 		else
 		{
 			colliderEnemyPlayer.enabled = true;
-			prefabPlayer.animation.Play("Idle");
+			prefabPlayer.GetComponent<Animation>().Play("Idle");
 		}
 		isDead = false;
 		Invoke("ressurect", 3f);
@@ -1223,8 +1224,8 @@ public class PlayerBehavior : EntityBehavior
 			}
 			weaponManager.CurrentWeapon.SetActive(false);
 			deadHands.SetActive(true);
-			prefabPlayer.animation.Play("Hit_By_Car_Little");
-			deadHands.transform.GetChild(0).animation.Play("Hit_By_Car_Little");
+			prefabPlayer.GetComponent<Animation>().Play("Hit_By_Car_Little");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Hit_By_Car_Little");
 			Invoke("wakeUpAfterCar", 3f);
 		}
 	}
@@ -1238,8 +1239,8 @@ public class PlayerBehavior : EntityBehavior
 			colliderEnemyPlayer.enabled = false;
 			highCarDemage = true;
 			getDamage(demag, idKiller);
-			prefabPlayer.animation.Play("Hit_By_Car_Big");
-			deadHands.transform.GetChild(0).animation.Play("Hit_By_Car_Big");
+			prefabPlayer.GetComponent<Animation>().Play("Hit_By_Car_Big");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Hit_By_Car_Big");
 		}
 	}
 
@@ -1251,8 +1252,8 @@ public class PlayerBehavior : EntityBehavior
 			{
 				colliderEnemyPlayer.enabled = true;
 			}
-			prefabPlayer.animation.Play("Wake_Up");
-			deadHands.transform.GetChild(0).animation.Play("Wake_Up");
+			prefabPlayer.GetComponent<Animation>().Play("Wake_Up");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Wake_Up");
 			Invoke("showOurGun", 1.5f);
 		}
 	}
@@ -1266,7 +1267,7 @@ public class PlayerBehavior : EntityBehavior
 
 	public void animFlyDown()
 	{
-		if (!prefabPlayer.animation.IsPlaying("InFly"))
+		if (!prefabPlayer.GetComponent<Animation>().IsPlaying("InFly"))
 		{
 			if (settings.offlineMode)
 			{
@@ -1286,7 +1287,7 @@ public class PlayerBehavior : EntityBehavior
 		{
 			tController.isPlayAnimation = false;
 		}
-		prefabPlayer.animation.Play("InFly", AnimationPlayMode.Stop);
+		prefabPlayer.GetComponent<Animation>().Play("InFly", AnimationPlayMode.Stop);
 	}
 
 	public void animDropAfterFlyDown()
@@ -1304,7 +1305,7 @@ public class PlayerBehavior : EntityBehavior
 	[RPC]
 	private void animDropAfterFlyDownOnline()
 	{
-		prefabPlayer.animation.Play("Drop");
+		prefabPlayer.GetComponent<Animation>().Play("Drop");
 		if (settings.offlineMode || base.photonView.isMine)
 		{
 			Invoke("alreadyDontFly", 0.8f);

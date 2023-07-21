@@ -36,7 +36,7 @@ public class UIDragDropItem : MonoBehaviour
 	protected virtual void Start()
 	{
 		mTrans = base.transform;
-		mCollider = base.collider;
+		mCollider = base.GetComponent<Collider>();
 		mDragScrollView = GetComponent<UIDragScrollView>();
 	}
 

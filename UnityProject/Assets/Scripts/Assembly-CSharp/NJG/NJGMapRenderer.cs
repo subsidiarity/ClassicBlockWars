@@ -101,26 +101,26 @@ public class NJGMapRenderer : MonoBehaviour
 	{
 		map.UpdateBounds();
 		Bounds bounds = map.bounds;
-		base.camera.depth = -100f;
-		base.camera.backgroundColor = map.cameraBackgroundColor;
-		base.camera.cullingMask = map.renderLayers;
-		base.camera.clearFlags = (CameraClearFlags)map.cameraClearFlags;
-		base.camera.isOrthoGraphic = true;
+		base.GetComponent<Camera>().depth = -100f;
+		base.GetComponent<Camera>().backgroundColor = map.cameraBackgroundColor;
+		base.GetComponent<Camera>().cullingMask = map.renderLayers;
+		base.GetComponent<Camera>().clearFlags = (CameraClearFlags)map.cameraClearFlags;
+		base.GetComponent<Camera>().orthographic = true;
 		float orthographicSize = 0f;
 		if (map.orientation == NJGMapBase.Orientation.XYSideScroller)
 		{
-			base.camera.farClipPlane = bounds.size.z * 1.1f;
+			base.GetComponent<Camera>().farClipPlane = bounds.size.z * 1.1f;
 			orthographicSize = bounds.extents.y;
-			base.camera.aspect = bounds.size.x / bounds.size.y;
+			base.GetComponent<Camera>().aspect = bounds.size.x / bounds.size.y;
 		}
 		else if (map.orientation == NJGMapBase.Orientation.XZDefault)
 		{
-			base.camera.farClipPlane = bounds.size.y * 1.1f;
+			base.GetComponent<Camera>().farClipPlane = bounds.size.y * 1.1f;
 			orthographicSize = bounds.extents.z;
-			base.camera.aspect = bounds.size.x / bounds.size.z;
+			base.GetComponent<Camera>().aspect = bounds.size.x / bounds.size.z;
 		}
-		base.camera.farClipPlane = base.camera.farClipPlane * 5f;
-		base.camera.orthographicSize = orthographicSize;
+		base.GetComponent<Camera>().farClipPlane = base.GetComponent<Camera>().farClipPlane * 5f;
+		base.GetComponent<Camera>().orthographicSize = orthographicSize;
 		if (map.orientation == NJGMapBase.Orientation.XZDefault)
 		{
 			cachedTransform.eulerAngles = new Vector3(90f, 0f, 0f);
@@ -144,14 +144,14 @@ public class NJGMapRenderer : MonoBehaviour
 						break;
 					}
 					Debug.Log(string.Concat("cachedTransform.position ", cachedTransform.position, " / mapImageIndex ", mapImageIndex));
-					base.camera.enabled = true;
+					base.GetComponent<Camera>().enabled = true;
 					mapImageIndex = i;
 				}
 			}
 			else
 			{
 				cachedTransform.position = new Vector3(bounds.max.x - bounds.extents.x, bounds.size.y * 2f, bounds.center.z);
-				base.camera.enabled = true;
+				base.GetComponent<Camera>().enabled = true;
 			}
 		}
 		else
@@ -270,9 +270,9 @@ public class NJGMapRenderer : MonoBehaviour
 				}
 				map.SetTexture((!map.generateMapTexture) ? map.userMapTexture : map.mapTexture);
 			}
-			if (base.camera.enabled && Application.isPlaying)
+			if (base.GetComponent<Camera>().enabled && Application.isPlaying)
 			{
-				base.camera.enabled = false;
+				base.GetComponent<Camera>().enabled = false;
 			}
 		}
 		lastRender = Time.time + 1f;
@@ -334,6 +334,6 @@ public class NJGMapRenderer : MonoBehaviour
 			map.userMapTexture.wrapMode = map.mapWrapMode;
 		}
 		ConfigCamera();
-		base.camera.enabled = true;
+		base.GetComponent<Camera>().enabled = true;
 	}
 }

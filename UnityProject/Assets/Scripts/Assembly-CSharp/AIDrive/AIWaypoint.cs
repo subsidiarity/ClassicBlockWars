@@ -8,7 +8,7 @@ public class AIWaypoint : MonoBehaviour
 
 	private void Awake()
 	{
-		base.renderer.enabled = false;
+		base.GetComponent<Renderer>().enabled = false;
 		if (useTrigger)
 		{
 			BoxCollider boxCollider = base.gameObject.AddComponent<BoxCollider>();

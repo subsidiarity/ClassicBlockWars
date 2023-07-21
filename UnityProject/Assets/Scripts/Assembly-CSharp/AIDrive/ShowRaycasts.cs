@@ -44,7 +44,7 @@ public class ShowRaycasts : MonoBehaviour
 		if (!Application.isPlaying)
 		{
 			aiDriver = base.gameObject.GetComponent("AIDriver") as AIDriver;
-			Transform transform = base.transform.FindChild("Colliders/ColliderBottom");
+			Transform transform = base.transform.Find("Colliders/ColliderBottom");
 			aiDriver.oASideOffset = Mathf.Abs(transform.localPosition.x) + transform.localScale.x / 2f + 0.1f;
 			Vector3 localPosition = aiDriver.viewPoint.localPosition;
 			localPosition.z = transform.localPosition.z + transform.localScale.z / 2f + 0.1f;

@@ -563,6 +563,6 @@ public class Load : MonoBehaviour
 		{
 		}
 		Texture2D texture = wWW.texture;
-		gameObject.renderer.material.mainTexture = texture;
+		gameObject.GetComponent<Renderer>().material.mainTexture = texture;
 	}
 }

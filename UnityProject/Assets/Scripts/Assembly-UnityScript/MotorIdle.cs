@@ -13,7 +13,7 @@ public class MotorIdle : MonoBehaviour
 	{
 		float num = 0f;
 		num = Input.GetAxis("Vertical") + 0.8f;
-		audio.pitch = num;
+		GetComponent<AudioSource>().pitch = num;
 	}
 
 	public virtual void Main()

@@ -210,7 +210,7 @@ public class CharacterMotor : MonoBehaviour
 		{
 			grounded = true;
 			jumping.jumping = false;
-			StartCoroutine_Auto(SubtractNewPlatformVelocity());
+			StartCoroutine(SubtractNewPlatformVelocity());
 			SendMessage("OnLand", SendMessageOptions.DontRequireReceiver);
 		}
 		if (MoveWithPlatform())

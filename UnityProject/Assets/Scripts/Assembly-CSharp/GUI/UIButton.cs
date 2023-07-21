@@ -30,12 +30,12 @@ public class UIButton : UIButtonColor
 			{
 				return false;
 			}
-			Collider collider = base.collider;
+			Collider collider = base.GetComponent<Collider>();
 			return (bool)collider && collider.enabled;
 		}
 		set
 		{
-			Collider collider = base.collider;
+			Collider collider = base.GetComponent<Collider>();
 			if (collider != null)
 			{
 				collider.enabled = value;

@@ -61,7 +61,7 @@ public class NJGTools
 		mesh.triangles = triangles;
 		mesh.RecalculateNormals();
 		mesh.RecalculateBounds();
-		mesh.Optimize();
+		;
 		return mesh;
 	}
 

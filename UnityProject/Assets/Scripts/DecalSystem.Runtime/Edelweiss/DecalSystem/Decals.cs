@@ -59,14 +59,14 @@ namespace Edelweiss.DecalSystem
 		{
 			get
 			{
-				return DecalsMeshRenderers[0].MeshRenderer.lightProbeAnchor;
+				return DecalsMeshRenderers[0].MeshRenderer.probeAnchor;
 			}
 			set
 			{
 				DecalsMeshRenderer[] decalsMeshRenderers = DecalsMeshRenderers;
 				foreach (DecalsMeshRenderer decalsMeshRenderer in decalsMeshRenderers)
 				{
-					decalsMeshRenderer.MeshRenderer.lightProbeAnchor = value;
+					decalsMeshRenderer.MeshRenderer.probeAnchor = value;
 				}
 			}
 		}
@@ -319,12 +319,12 @@ namespace Edelweiss.DecalSystem
 				{
 					if (decalsMeshRenderer.MeshFilter != null && decalsMeshRenderer.MeshFilter.mesh != null)
 					{
-						decalsMeshRenderer.MeshFilter.mesh.Optimize();
+						var o_321_6_638253892416199755 = decalsMeshRenderer.MeshFilter.mesh;
 					}
 				}
 				else if (decalsMeshRenderer.MeshFilter != null && decalsMeshRenderer.MeshFilter.sharedMesh != null)
 				{
-					decalsMeshRenderer.MeshFilter.sharedMesh.Optimize();
+					var o_326_5_638253892416605733 = decalsMeshRenderer.MeshFilter.sharedMesh;
 				}
 			}
 		}

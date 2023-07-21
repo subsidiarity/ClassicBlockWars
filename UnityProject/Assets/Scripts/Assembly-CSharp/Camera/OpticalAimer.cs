@@ -38,7 +38,7 @@ public class OpticalAimer : MonoBehaviour
 			pBehavior = base.transform.root.GetComponent<PlayerBehavior>();
 			cam = Camera.main.GetComponent<RPG_Camera>();
 			initialCameraDistance = 5f;
-			normalFOV = cam.camera.fieldOfView;
+			normalFOV = cam.GetComponent<Camera>().fieldOfView;
 			InstantiateSniperObjects();
 		}
 	}
@@ -51,10 +51,10 @@ public class OpticalAimer : MonoBehaviour
 			{
 				pBehavior.enemyCollider.SetActive(on);
 			}
-			pBehavior.playerMesh.renderer.enabled = on;
-			base.transform.Find("SniperRifle 1/Arms_Mesh").renderer.enabled = on;
-			base.transform.Find("SniperRifle 1/Arms_Mesh/Sniper_rifle_Mesh").renderer.enabled = on;
-			pBehavior.playerMesh.renderer.enabled = on;
+			pBehavior.playerMesh.GetComponent<Renderer>().enabled = on;
+			base.transform.Find("SniperRifle 1/Arms_Mesh").GetComponent<Renderer>().enabled = on;
+			base.transform.Find("SniperRifle 1/Arms_Mesh/Sniper_rifle_Mesh").GetComponent<Renderer>().enabled = on;
+			pBehavior.playerMesh.GetComponent<Renderer>().enabled = on;
 		}
 	}
 
@@ -124,7 +124,7 @@ public class OpticalAimer : MonoBehaviour
 			aimerObjWhite.SetActive(false);
 		}
 		base.transform.localPosition = base.transform.forward * -3f;
-		cam.camera.fieldOfView = zoomedFOV;
+		cam.GetComponent<Camera>().fieldOfView = zoomedFOV;
 		cam.desiredDistance = 0f;
 		instantiatedAimerTexture.SetActive(true);
 		SwitchRenderers(false);
@@ -163,7 +163,7 @@ public class OpticalAimer : MonoBehaviour
 		SwitchRenderers(true);
 		if (cam != null)
 		{
-			cam.camera.fieldOfView = normalFOV;
+			cam.GetComponent<Camera>().fieldOfView = normalFOV;
 			cam.desiredDistance = initialCameraDistance;
 		}
 		if (instantiatedAimerTexture != null)
@@ -184,7 +184,7 @@ public class OpticalAimer : MonoBehaviour
 		if (cam != null)
 		{
 			cam.desiredDistance = initialCameraDistance;
-			cam.camera.fieldOfView = normalFOV;
+			cam.GetComponent<Camera>().fieldOfView = normalFOV;
 		}
 		UnityEngine.Object.Destroy(instantiatedAimerButton);
 		UnityEngine.Object.Destroy(instantiatedAimerTexture);

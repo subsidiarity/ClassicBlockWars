@@ -575,7 +575,7 @@ public class ThirdPersonController : Photon.MonoBehaviour
 			}
 			if (!pBehavior.damageFromCar && nameAnimation != null)
 			{
-				animationObject.animation.CrossFade(nameAnimation);
+				animationObject.GetComponent<Animation>().CrossFade(nameAnimation);
 			}
 			broadcastWeaponAnimation(nameAnimation);
 		}
@@ -585,13 +585,13 @@ public class ThirdPersonController : Photon.MonoBehaviour
 	{
 		if (!(anim == jumpPoseAnimation.name) && !base.photonView.isMine && checkForShootNotPlaying())
 		{
-			weaponAnimationObject.animation.Play(anim);
+			weaponAnimationObject.GetComponent<Animation>().Play(anim);
 		}
 	}
 
 	private bool checkForShootNotPlaying()
 	{
-		return (weaponAnimationObject != null && !weaponAnimationObject.animation.IsPlaying("Shoot") && !weaponAnimationObject.animation.IsPlaying("Reload") && !weaponAnimationObject.animation.IsPlaying("Shoot1"));
+		return (weaponAnimationObject != null && !weaponAnimationObject.GetComponent<Animation>().IsPlaying("Shoot") && !weaponAnimationObject.GetComponent<Animation>().IsPlaying("Reload") && !weaponAnimationObject.GetComponent<Animation>().IsPlaying("Shoot1"));
 	}
 
 	private void updateAnimations()
@@ -629,7 +629,7 @@ public class ThirdPersonController : Photon.MonoBehaviour
 			_animation.CrossFade(idleAnimation.name);
 			if (checkForShootNotPlaying())
 			{
-				weaponAnimationObject.animation.CrossFade(idleAnimation.name);
+				weaponAnimationObject.GetComponent<Animation>().CrossFade(idleAnimation.name);
 			}
 			_characterState = CharacterState.Idle;
 			if (!settings.offlineMode && pred_CharacterState != _characterState)
@@ -652,7 +652,7 @@ public class ThirdPersonController : Photon.MonoBehaviour
 			_animation.CrossFade(walkAnimation.name);
 			if (checkForShootNotPlaying())
 			{
-				weaponAnimationObject.animation.CrossFade(walkAnimation.name);
+				weaponAnimationObject.GetComponent<Animation>().CrossFade(walkAnimation.name);
 			}
 			if (!settings.offlineMode && pred_CharacterState != _characterState)
 			{
@@ -665,7 +665,7 @@ public class ThirdPersonController : Photon.MonoBehaviour
 			_animation.CrossFade(walkAnimation.name);
 			if (checkForShootNotPlaying())
 			{
-				weaponAnimationObject.animation.CrossFade(walkAnimation.name);
+				weaponAnimationObject.GetComponent<Animation>().CrossFade(walkAnimation.name);
 			}
 			if (!settings.offlineMode && pred_CharacterState != _characterState)
 			{

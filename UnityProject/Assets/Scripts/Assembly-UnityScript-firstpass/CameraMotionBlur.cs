@@ -97,8 +97,8 @@ public class CameraMotionBlur : PostEffectsBase
 
 	private void CalculateViewProjection()
 	{
-		Matrix4x4 worldToCameraMatrix = camera.worldToCameraMatrix;
-		Matrix4x4 gPUProjectionMatrix = GL.GetGPUProjectionMatrix(camera.projectionMatrix, true);
+		Matrix4x4 worldToCameraMatrix = GetComponent<Camera>().worldToCameraMatrix;
+		Matrix4x4 gPUProjectionMatrix = GL.GetGPUProjectionMatrix(GetComponent<Camera>().projectionMatrix, true);
 		currentViewProjMat = gPUProjectionMatrix * worldToCameraMatrix;
 	}
 
@@ -114,7 +114,7 @@ public class CameraMotionBlur : PostEffectsBase
 
 	public override void OnEnable()
 	{
-		camera.depthTextureMode |= DepthTextureMode.Depth;
+		GetComponent<Camera>().depthTextureMode |= DepthTextureMode.Depth;
 	}
 
 	public virtual void OnDisable()
@@ -219,10 +219,10 @@ public class CameraMotionBlur : PostEffectsBase
 		motionBlurMaterial.SetTexture("_TileTexDebug", temporary2);
 		if (preview)
 		{
-			Matrix4x4 worldToCameraMatrix = this.camera.worldToCameraMatrix;
+			Matrix4x4 worldToCameraMatrix = this.GetComponent<Camera>().worldToCameraMatrix;
 			Matrix4x4 identity = Matrix4x4.identity;
 			identity.SetTRS(previewScale * 0.25f, Quaternion.identity, Vector3.one);
-			Matrix4x4 gPUProjectionMatrix = GL.GetGPUProjectionMatrix(this.camera.projectionMatrix, true);
+			Matrix4x4 gPUProjectionMatrix = GL.GetGPUProjectionMatrix(this.GetComponent<Camera>().projectionMatrix, true);
 			prevViewProjMat = gPUProjectionMatrix * identity * worldToCameraMatrix;
 			motionBlurMaterial.SetMatrix("_PrevViewProj", prevViewProjMat);
 			motionBlurMaterial.SetMatrix("_ToPrevViewProjCombined", prevViewProjMat * matrix4x);
@@ -234,11 +234,11 @@ public class CameraMotionBlur : PostEffectsBase
 			Vector3 rhs = prevFramePos - transform.position;
 			float magnitude = rhs.magnitude;
 			float num5 = 1f;
-			num5 = Vector3.Angle(transform.up, prevFrameUp) / this.camera.fieldOfView * ((float)source.width * 0.75f);
+			num5 = Vector3.Angle(transform.up, prevFrameUp) / this.GetComponent<Camera>().fieldOfView * ((float)source.width * 0.75f);
 			zero.x = rotationScale * num5;
-			num5 = Vector3.Angle(transform.forward, prevFrameForward) / this.camera.fieldOfView * ((float)source.width * 0.75f);
+			num5 = Vector3.Angle(transform.forward, prevFrameForward) / this.GetComponent<Camera>().fieldOfView * ((float)source.width * 0.75f);
 			zero.y = rotationScale * num4 * num5;
-			num5 = Vector3.Angle(transform.forward, prevFrameForward) / this.camera.fieldOfView * ((float)source.width * 0.75f);
+			num5 = Vector3.Angle(transform.forward, prevFrameForward) / this.GetComponent<Camera>().fieldOfView * ((float)source.width * 0.75f);
 			zero.z = rotationScale * (1f - num4) * num5;
 			if (!(magnitude <= float.Epsilon) && !(movementScale <= float.Epsilon))
 			{
@@ -248,7 +248,7 @@ public class CameraMotionBlur : PostEffectsBase
 			}
 			if (preview)
 			{
-				motionBlurMaterial.SetVector("_BlurDirectionPacked", new Vector4(previewScale.y, previewScale.x, 0f, previewScale.z) * 0.5f * this.camera.fieldOfView);
+				motionBlurMaterial.SetVector("_BlurDirectionPacked", new Vector4(previewScale.y, previewScale.x, 0f, previewScale.z) * 0.5f * this.GetComponent<Camera>().fieldOfView);
 			}
 			else
 			{
@@ -330,7 +330,7 @@ public class CameraMotionBlur : PostEffectsBase
 	{
 		if (tmpCam == null)
 		{
-			string text = "_" + camera.name + "_MotionBlurTmpCam";
+			string text = "_" + GetComponent<Camera>().name + "_MotionBlurTmpCam";
 			GameObject gameObject = GameObject.Find(text);
 			if (null == gameObject)
 			{
@@ -342,14 +342,14 @@ public class CameraMotionBlur : PostEffectsBase
 			}
 		}
 		tmpCam.hideFlags = HideFlags.DontSave;
-		tmpCam.transform.position = camera.transform.position;
-		tmpCam.transform.rotation = camera.transform.rotation;
-		tmpCam.transform.localScale = camera.transform.localScale;
-		tmpCam.camera.CopyFrom(camera);
-		tmpCam.camera.enabled = false;
-		tmpCam.camera.depthTextureMode = DepthTextureMode.None;
-		tmpCam.camera.clearFlags = CameraClearFlags.Nothing;
-		return tmpCam.camera;
+		tmpCam.transform.position = GetComponent<Camera>().transform.position;
+		tmpCam.transform.rotation = GetComponent<Camera>().transform.rotation;
+		tmpCam.transform.localScale = GetComponent<Camera>().transform.localScale;
+		tmpCam.GetComponent<Camera>().CopyFrom(GetComponent<Camera>());
+		tmpCam.GetComponent<Camera>().enabled = false;
+		tmpCam.GetComponent<Camera>().depthTextureMode = DepthTextureMode.None;
+		tmpCam.GetComponent<Camera>().clearFlags = CameraClearFlags.Nothing;
+		return tmpCam.GetComponent<Camera>();
 	}
 
 	public virtual void StartFrame()

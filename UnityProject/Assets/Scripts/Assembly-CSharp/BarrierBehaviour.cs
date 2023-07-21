@@ -8,7 +8,7 @@ public class BarrierBehaviour : MonoBehaviour
 
 	private void Awake()
 	{
-		base.gameObject.collider.isTrigger = triggerCollider;
-		base.gameObject.transform.renderer.enabled = show;
+		base.gameObject.GetComponent<Collider>().isTrigger = triggerCollider;
+		base.gameObject.transform.GetComponent<Renderer>().enabled = show;
 	}
 }

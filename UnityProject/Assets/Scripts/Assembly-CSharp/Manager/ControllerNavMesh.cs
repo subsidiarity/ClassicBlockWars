@@ -8,7 +8,7 @@ public class ControllerNavMesh : MonoBehaviour
 
 	private WeaponManager weaponMan;
 
-	private NavMeshAgent navMeshScript;
+	private UnityEngine.AI.NavMeshAgent navMeshScript;
 
 	public Vector3 goToPoint;
 
@@ -21,7 +21,7 @@ public class ControllerNavMesh : MonoBehaviour
 		allzone = EnemyGenerator.Instance.arrNavMeshzone;
 		playerBeh = base.gameObject.GetComponent<PlayerBehavior>();
 		weaponMan = base.gameObject.GetComponent<WeaponManager>();
-		navMeshScript = base.gameObject.GetComponent<NavMeshAgent>();
+		navMeshScript = base.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 		startMoveNavMesh();
 	}
 

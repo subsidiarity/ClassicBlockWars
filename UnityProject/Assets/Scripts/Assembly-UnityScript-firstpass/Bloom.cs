@@ -155,7 +155,7 @@ public class Bloom : PostEffectsBase
 			bool num = source.format == RenderTextureFormat.ARGBHalf;
 			if (num)
 			{
-				num = camera.hdr;
+				num = GetComponent<Camera>().hdr;
 			}
 			doHdr = num;
 		}

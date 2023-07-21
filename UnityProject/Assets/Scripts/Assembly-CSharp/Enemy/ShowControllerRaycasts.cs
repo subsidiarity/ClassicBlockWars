@@ -57,7 +57,7 @@ public class ShowControllerRaycasts : MonoBehaviour
 		if (!Application.isPlaying)
 		{
 			aiDriverController = base.gameObject.GetComponent("AIDriverController") as AIDriverController;
-			Transform transform = base.transform.FindChild("Colliders/ColliderBottom");
+			Transform transform = base.transform.Find("Colliders/ColliderBottom");
 			if (transform != null)
 			{
 				aiDriverController.oASideOffset = Mathf.Abs(transform.localPosition.x) + transform.localScale.x / 2f + 0.1f;

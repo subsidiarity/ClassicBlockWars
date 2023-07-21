@@ -171,7 +171,7 @@ public class AIDriver : MonoBehaviour
 		{
 			wheelTurningParameter = 1;
 		}
-		base.rigidbody.centerOfMass = new Vector3(0f, centerOfMassY, 0f);
+		base.GetComponent<Rigidbody>().centerOfMass = new Vector3(0f, centerOfMassY, 0f);
 		if (playSound && motorSound != null)
 		{
 			InitSound();
@@ -237,7 +237,7 @@ public class AIDriver : MonoBehaviour
 			centerPointEndRGO.transform.parent = base.transform;
 			centerPointEndRGO.transform.position = centerPointR + base.transform.TransformDirection(Vector3.right * oASideDistance);
 			centerPointEndRGO.transform.rotation = base.transform.rotation;
-			frontCollider = base.transform.FindChild("ViewPointCollider");
+			frontCollider = base.transform.Find("ViewPointCollider");
 			Vector3 localPosition = viewPoint.transform.localPosition;
 			localPosition.y += 0.1f;
 			frontCollider.transform.localPosition = localPosition;
@@ -248,7 +248,7 @@ public class AIDriver : MonoBehaviour
 
 	private void InitSound()
 	{
-		motorAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+		motorAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 		motorAudioSource.clip = motorSound;
 		motorAudioSource.loop = true;
 		motorAudioSource.volume = soundVolume;

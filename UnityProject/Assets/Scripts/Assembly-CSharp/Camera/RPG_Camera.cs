@@ -85,9 +85,9 @@ public class RPG_Camera : MonoBehaviour
 	{
 		distance = Mathf.Clamp(distance, 0.05f, distanceMax);
 		desiredDistance = distance;
-		halfFieldOfView = Camera.mainCamera.fieldOfView / 2f * ((float)Math.PI / 180f);
-		planeAspect = Camera.mainCamera.aspect;
-		halfPlaneHeight = Camera.mainCamera.nearClipPlane * Mathf.Tan(halfFieldOfView);
+		halfFieldOfView = Camera.main.fieldOfView / 2f * ((float)Math.PI / 180f);
+		planeAspect = Camera.main.aspect;
+		halfPlaneHeight = Camera.main.nearClipPlane * Mathf.Tan(halfFieldOfView);
 		halfPlaneWidth = halfPlaneHeight * planeAspect;
 		mouseX = 0f;
 		mouseY = 15f;
@@ -96,19 +96,19 @@ public class RPG_Camera : MonoBehaviour
 	public static void CameraSetup()
 	{
 		GameObject gameObject;
-		if (Camera.mainCamera != null)
+		if (Camera.main != null)
 		{
-			gameObject = Camera.mainCamera.gameObject;
+			gameObject = Camera.main.gameObject;
 		}
 		else
 		{
 			gameObject = new GameObject("Main Camera");
-			gameObject.AddComponent("Camera");
+			gameObject.AddComponent<Camera>();
 			gameObject.tag = "MainCamera";
 		}
 		if (!gameObject.GetComponent("RPG_Camera"))
 		{
-			gameObject.AddComponent("RPG_Camera");
+			gameObject.AddComponent<RPG_Camera>();
 		}
 		RPG_Camera rPG_Camera = gameObject.GetComponent("RPG_Camera") as RPG_Camera;
 		GameObject gameObject2 = GameObject.Find("cameraPivot");
@@ -149,7 +149,7 @@ public class RPG_Camera : MonoBehaviour
 		{
 			if (isDragging)
 			{
-				Screen.showCursor = false;
+				Cursor.visible = false;
 				mouseX += controlVector.x * mouseSpeed;
 				if (flag)
 				{
@@ -165,7 +165,7 @@ public class RPG_Camera : MonoBehaviour
 			}
 			else
 			{
-				Screen.showCursor = true;
+				Cursor.visible = true;
 			}
 		}
 		mouseY = ClampAngle(mouseY, -89.5f, 89.5f);
@@ -203,7 +203,7 @@ public class RPG_Camera : MonoBehaviour
 			desiredPosition = GetCameraPosition(mouseYSmooth, mouseXSmooth, distance);
 			constraint = true;
 		}
-		distance -= Camera.mainCamera.nearClipPlane;
+		distance -= Camera.main.nearClipPlane;
 		if (lastDistance < distance || !constraint)
 		{
 			distance = Mathf.SmoothDamp(lastDistance, distance, ref distanceVel, camDistanceSpeed);
@@ -233,23 +233,23 @@ public class RPG_Camera : MonoBehaviour
 		}
 		if (distance < firstPersonThreshold)
 		{
-			RPG_Animation.instance.renderer.enabled = false;
+			RPG_Animation.instance.GetComponent<Renderer>().enabled = false;
 		}
 		else if (distance < characterFadeThreshold)
 		{
-			RPG_Animation.instance.renderer.enabled = true;
+			RPG_Animation.instance.GetComponent<Renderer>().enabled = true;
 			float num = 1f - (characterFadeThreshold - distance) / (characterFadeThreshold - firstPersonThreshold);
-			if (RPG_Animation.instance.renderer.material.color.a != num)
+			if (RPG_Animation.instance.GetComponent<Renderer>().material.color.a != num)
 			{
-				RPG_Animation.instance.renderer.material.color = new Color(RPG_Animation.instance.renderer.material.color.r, RPG_Animation.instance.renderer.material.color.g, RPG_Animation.instance.renderer.material.color.b, num);
+				RPG_Animation.instance.GetComponent<Renderer>().material.color = new Color(RPG_Animation.instance.GetComponent<Renderer>().material.color.r, RPG_Animation.instance.GetComponent<Renderer>().material.color.g, RPG_Animation.instance.GetComponent<Renderer>().material.color.b, num);
 			}
 		}
 		else
 		{
-			RPG_Animation.instance.renderer.enabled = true;
-			if (RPG_Animation.instance.renderer.material.color.a != 1f)
+			RPG_Animation.instance.GetComponent<Renderer>().enabled = true;
+			if (RPG_Animation.instance.GetComponent<Renderer>().material.color.a != 1f)
 			{
-				RPG_Animation.instance.renderer.material.color = new Color(RPG_Animation.instance.renderer.material.color.r, RPG_Animation.instance.renderer.material.color.g, RPG_Animation.instance.renderer.material.color.b, 1f);
+				RPG_Animation.instance.GetComponent<Renderer>().material.color = new Color(RPG_Animation.instance.GetComponent<Renderer>().material.color.r, RPG_Animation.instance.GetComponent<Renderer>().material.color.g, RPG_Animation.instance.GetComponent<Renderer>().material.color.b, 1f);
 			}
 		}
 	}
@@ -277,7 +277,7 @@ public class RPG_Camera : MonoBehaviour
 		RaycastHit hitInfo;
 		if (Physics.Linecast(from, to, out hitInfo) && IsIgnorCollider(hitInfo))
 		{
-			num = hitInfo.distance - Camera.mainCamera.nearClipPlane;
+			num = hitInfo.distance - Camera.main.nearClipPlane;
 		}
 		if (Physics.Linecast(from - base.transform.right * halfPlaneWidth + base.transform.up * halfPlaneHeight, clipPlaneAt.UpperLeft, out hitInfo) && IsIgnorCollider(hitInfo) && (hitInfo.distance < num || num == -1f))
 		{
@@ -326,12 +326,12 @@ public class RPG_Camera : MonoBehaviour
 	public static ClipPlaneVertexes GetClipPlaneAt(Vector3 pos)
 	{
 		ClipPlaneVertexes result = default(ClipPlaneVertexes);
-		if (Camera.mainCamera == null)
+		if (Camera.main == null)
 		{
 			return result;
 		}
-		Transform transform = Camera.mainCamera.transform;
-		float nearClipPlane = Camera.mainCamera.nearClipPlane;
+		Transform transform = Camera.main.transform;
+		float nearClipPlane = Camera.main.nearClipPlane;
 		result.UpperLeft = pos - transform.right * halfPlaneWidth;
 		result.UpperLeft += transform.up * halfPlaneHeight;
 		result.UpperLeft += transform.forward * nearClipPlane;

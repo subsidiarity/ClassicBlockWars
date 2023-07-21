@@ -222,7 +222,7 @@ public class MissionManager : MonoBehaviour
 	{
 		Type type = allMissionsDict[missionID].GetType();
 		Debug.Log("Mission got: " + type.Name);
-		return (Mission)base.gameObject.AddComponent(type.Name);
+		return (Mission)base.gameObject.AddComponent(type);
 	}
 
 	public void EndCurrentMission()

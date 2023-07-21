@@ -54,8 +54,10 @@ public class SplinePathWaypoints : SplinePath
 
 	private void CreateNewWaypoints()
 	{
+		// TMP
+		/*
 		int num = 0;
-		GameObject original = Resources.LoadAssetAtPath("Assets/AIDriverToolkit/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
+		GameObject original = UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/AIDriverToolkit/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
 		foreach (Vector3 item in sequence)
 		{
 			num++;
@@ -68,7 +70,7 @@ public class SplinePathWaypoints : SplinePath
 				AIWaypoint aIWaypoint = waypoint.GetComponent("AIWaypoint") as AIWaypoint;
 				CopyParameters(ref waypoint, num);
 			}
-		}
+		}*/
 	}
 
 	private void CopyParameters(ref GameObject waypoint, int newIndex)
@@ -139,7 +141,7 @@ public class SplinePathWaypoints : SplinePath
 			GameObject gameObject = GameObject.Find(text);
 			if (gameObject != null)
 			{
-				gameObject.renderer.enabled = active;
+				gameObject.GetComponent<Renderer>().enabled = active;
 				num++;
 			}
 			else
@@ -166,14 +168,7 @@ public class SplinePathWaypoints : SplinePath
 				DrawLineToNext component = gameObject.GetComponent<DrawLineToNext>();
 				if (component != null)
 				{
-					if (active)
-					{
-						component.active = false;
-					}
-					else
-					{
-						component.active = true;
-					}
+					//component.active = active;
 				}
 			}
 			else

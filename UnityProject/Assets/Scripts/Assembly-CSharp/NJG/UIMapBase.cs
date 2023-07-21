@@ -319,7 +319,7 @@ namespace NJG
 			{
 				if (mRenderer == null)
 				{
-					mRenderer = base.gameObject.renderer;
+					mRenderer = base.gameObject.GetComponent<Renderer>();
 				}
 				if (mRenderer == null)
 				{

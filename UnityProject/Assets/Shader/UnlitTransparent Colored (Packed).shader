@@ -1,11 +1,13 @@
-﻿Shader "Unlit/Transparent Colored (Packed)"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Unlit/Transparent Colored (Packed)"
 {
 	Properties
 	{
-		_MainTex ("Base (RGB), Alpha (A)", 2D) = "white" {}
+		_MainTex("Base (RGB), Alpha (A)", 2D) = "white" {}
 	}
 
-	SubShader
+		SubShader
 	{
 		LOD 200
 
@@ -15,13 +17,13 @@
 			"IgnoreProjector" = "True"
 			"RenderType" = "Transparent"
 		}
-		
+
 		Pass
 		{
 			Cull Off
 			Lighting Off
 			ZWrite Off
-			Offset -1, -1
+			Offset - 1, -1
 			Fog { Mode Off }
 			ColorMask RGB
 			Blend SrcAlpha OneMinusSrcAlpha
@@ -49,16 +51,16 @@
 				float2 texcoord : TEXCOORD0;
 			};
 
-			v2f vert (appdata_t v)
+			v2f vert(appdata_t v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.color = v.color;
 				o.texcoord = v.texcoord;
 				return o;
 			}
 
-			half4 frag (v2f IN) : COLOR
+			half4 frag(v2f IN) : COLOR
 			{
 				half4 mask = tex2D(_MainTex, IN.texcoord);
 				half4 mixed = saturate(ceil(IN.color - 0.5));
@@ -71,5 +73,5 @@
 			ENDCG
 		}
 	}
-	Fallback Off
+		Fallback Off
 }

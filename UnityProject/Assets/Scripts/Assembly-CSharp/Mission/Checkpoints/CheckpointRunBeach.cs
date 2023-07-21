@@ -43,7 +43,7 @@ public class CheckpointRunBeach : CheckpointRunPort
 	{
 		rootPoint = MissionManager.Instance.checkpointRoot;
 		rootPoint.SetActive(true);
-		checkPoints = rootPoint.transform.FindChild("m4").gameObject;
+		checkPoints = rootPoint.transform.Find("m4").gameObject;
 		checkPoints.SetActive(true);
 		checkPoints.transform.GetChild(0).gameObject.SetActive(true);
 		checkPoints.transform.GetChild(0).GetComponent<CheckPointBehavior>().canBeVisited = true;

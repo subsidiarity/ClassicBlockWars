@@ -128,13 +128,13 @@ public class controllerMenu : MonoBehaviour
 		}
 		if (settings.musicEnabled)
 		{
-			base.audio.Play();
+			base.GetComponent<AudioSource>().Play();
 			butMusicOn.SetActive(true);
 			butMusicOff.SetActive(false);
 		}
 		else
 		{
-			base.audio.Pause();
+			base.GetComponent<AudioSource>().Pause();
 			butMusicOn.SetActive(false);
 			butMusicOff.SetActive(true);
 		}
@@ -542,13 +542,13 @@ public class controllerMenu : MonoBehaviour
 		settings.setMusicEnbled(!settings.musicEnabled);
 		if (settings.musicEnabled)
 		{
-			base.audio.Play();
+			base.GetComponent<AudioSource>().Play();
 			butMusicOn.SetActive(true);
 			butMusicOff.SetActive(false);
 		}
 		else
 		{
-			base.audio.Pause();
+			base.GetComponent<AudioSource>().Pause();
 			butMusicOn.SetActive(false);
 			butMusicOff.SetActive(true);
 		}

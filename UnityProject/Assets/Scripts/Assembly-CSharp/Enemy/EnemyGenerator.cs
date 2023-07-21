@@ -56,6 +56,7 @@ public class EnemyGenerator : MonoBehaviour
 
 	private void initHell()
 	{
+		Debug.Log("Initing hell");
 		enemiesInHell = new List<GameObject>();
 		for (int i = 0; i < settings.maxKolVragov; i++)
 		{

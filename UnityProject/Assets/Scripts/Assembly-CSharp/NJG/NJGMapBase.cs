@@ -411,7 +411,7 @@ namespace NJG
 			{
 				if (NJGMapRenderer.instance != null)
 				{
-					mOrtoSize = NJGMapRenderer.instance.camera.orthographicSize;
+					mOrtoSize = NJGMapRenderer.instance.GetComponent<Camera>().orthographicSize;
 				}
 				return mOrtoSize;
 			}
@@ -424,7 +424,7 @@ namespace NJG
 			{
 				if (NJGMapRenderer.instance != null)
 				{
-					mAspect = NJGMapRenderer.instance.camera.aspect;
+					mAspect = NJGMapRenderer.instance.GetComponent<Camera>().aspect;
 				}
 				return mAspect;
 			}
@@ -655,13 +655,13 @@ namespace NJG
 						mBounds = new Bounds(gameObject.transform.position, new Vector3(1f, 1f, 1f));
 						flag = true;
 					}
-					Renderer renderer = gameObject.renderer;
+					Renderer renderer = gameObject.GetComponent<Renderer>();
 					if (renderer != null)
 					{
 						mBounds.Encapsulate(renderer.bounds);
 						continue;
 					}
-					Collider collider = gameObject.collider;
+					Collider collider = gameObject.GetComponent<Collider>();
 					if (collider != null)
 					{
 						mBounds.Encapsulate(collider.bounds);

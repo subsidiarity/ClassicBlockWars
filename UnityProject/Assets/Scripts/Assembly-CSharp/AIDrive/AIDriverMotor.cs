@@ -93,7 +93,7 @@ public class AIDriverMotor : MonoBehaviour
 		}
 		if (centerOfMass != null)
 		{
-			base.rigidbody.centerOfMass = centerOfMass.localPosition;
+			base.GetComponent<Rigidbody>().centerOfMass = centerOfMass.localPosition;
 		}
 	}
 
@@ -103,7 +103,7 @@ public class AIDriverMotor : MonoBehaviour
 
 	private void InitSound()
 	{
-		m_motorAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+		m_motorAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 		m_motorAudioSource.clip = motorSound;
 		m_motorAudioSource.loop = true;
 		m_motorAudioSource.volume = soundVolume;

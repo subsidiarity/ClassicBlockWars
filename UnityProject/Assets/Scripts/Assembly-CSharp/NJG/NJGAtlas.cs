@@ -168,7 +168,7 @@ public class NJGAtlas : MonoBehaviour
 		{
 			meshRenderer = (MeshRenderer)go.AddComponent(typeof(MeshRenderer));
 		}
-		meshRenderer.renderer.sharedMaterial = spriteMaterial;
+		meshRenderer.GetComponent<Renderer>().sharedMaterial = spriteMaterial;
 		float num = (float)texture.width * 0.5f;
 		float num2 = (float)texture.height * 0.5f;
 		Vector3[] vertices = new Vector3[4]

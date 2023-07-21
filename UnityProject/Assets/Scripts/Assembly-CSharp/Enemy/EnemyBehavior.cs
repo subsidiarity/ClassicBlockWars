@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyBehavior : EntityBehavior
 {
-	private NavMeshAgent nAgent;
+	private UnityEngine.AI.NavMeshAgent nAgent;
 
 	private GameObject currentTarget;
 
@@ -216,7 +216,7 @@ public class EnemyBehavior : EntityBehavior
 	{
 		skinNumber = getSkinFromSet();
 		initSkin(skinNumber);
-		nAgent = GetComponent<NavMeshAgent>();
+		nAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		prefabPlayer = base.transform.Find("prefabPlayer").gameObject;
 		if (base.transform.Find("enemyCollider") != null)
 		{
@@ -276,19 +276,19 @@ public class EnemyBehavior : EntityBehavior
 
 	private void animateWalk()
 	{
-		prefabPlayer.animation.Play("Slow_Walk");
+		prefabPlayer.GetComponent<Animation>().Play("Slow_Walk");
 		if (deadHands != null)
 		{
-			deadHands.transform.GetChild(0).animation.Play("Slow_Walk");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Slow_Walk");
 		}
 	}
 
 	private void animateRun()
 	{
-		prefabPlayer.animation.Play("Walk");
+		prefabPlayer.GetComponent<Animation>().Play("Walk");
 		if (deadHands != null)
 		{
-			deadHands.transform.GetChild(0).animation.Play("Walk");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Walk");
 		}
 	}
 
@@ -314,10 +314,10 @@ public class EnemyBehavior : EntityBehavior
 			cNavMesh.stopMoveNavMesh();
 			toggleGun(false);
 			getDamage(damag);
-			prefabPlayer.animation.Play("Hit_By_Car_Little");
+			prefabPlayer.GetComponent<Animation>().Play("Hit_By_Car_Little");
 			if (deadHands != null)
 			{
-				deadHands.transform.GetChild(0).animation.Play("Hit_By_Car_Little");
+				deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Hit_By_Car_Little");
 			}
 			Invoke("wakeUpAfterCar", 3f);
 		}
@@ -330,10 +330,10 @@ public class EnemyBehavior : EntityBehavior
 			carDamage = true;
 			toggleGun(false);
 			getDamage(damag);
-			prefabPlayer.animation.Play("Hit_By_Car_Big");
+			prefabPlayer.GetComponent<Animation>().Play("Hit_By_Car_Big");
 			if (deadHands != null)
 			{
-				deadHands.transform.GetChild(0).animation.Play("Hit_By_Car_Big");
+				deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Hit_By_Car_Big");
 			}
 		}
 	}
@@ -342,10 +342,10 @@ public class EnemyBehavior : EntityBehavior
 	{
 		if (carDamage)
 		{
-			prefabPlayer.animation.Play("Wake_Up");
+			prefabPlayer.GetComponent<Animation>().Play("Wake_Up");
 			if (deadHands != null)
 			{
-				deadHands.transform.GetChild(0).animation.Play("Wake_Up");
+				deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Wake_Up");
 			}
 			Invoke("showOurGun", 1.5f);
 		}
@@ -414,7 +414,7 @@ public class EnemyBehavior : EntityBehavior
 		{
 			rotateToTarget(playerTarget.transform.position);
 			cNavMesh.stopMoveNavMesh();
-			prefabPlayer.animation.Play("Idle");
+			prefabPlayer.GetComponent<Animation>().Play("Idle");
 			if (weaponScript != null)
 			{
 				shoot(weaponScript.damage);
@@ -466,7 +466,7 @@ public class EnemyBehavior : EntityBehavior
 		{
 			if (GameController.thisScript.myPlayer.GetComponent<PlayerBehavior>().isDead)
 			{
-				prefabPlayer.animation.Play("Walk");
+				prefabPlayer.GetComponent<Animation>().Play("Walk");
 				currentState = EnemyState.Passive;
 				playerTarget = null;
 				cNavMesh.startMoveNavMesh();
@@ -474,7 +474,7 @@ public class EnemyBehavior : EntityBehavior
 		}
 		else if (GameController.thisScript.myCar.GetComponent<CarBehavior>().isDead)
 		{
-			prefabPlayer.animation.Play("Walk");
+			prefabPlayer.GetComponent<Animation>().Play("Walk");
 			currentState = EnemyState.Passive;
 			playerTarget = null;
 			cNavMesh.startMoveNavMesh();
@@ -486,7 +486,7 @@ public class EnemyBehavior : EntityBehavior
 		if (playerTarget != null)
 		{
 			rotateToTarget(playerTarget.transform.position);
-			prefabPlayer.animation.Play("Walk");
+			prefabPlayer.GetComponent<Animation>().Play("Walk");
 			cNavMesh.GoToPointForce(playerTarget.transform.position);
 			CheckPlayerDeath();
 		}
@@ -640,12 +640,12 @@ public class EnemyBehavior : EntityBehavior
 			enemyWeapon.SetActive(false);
 		}
 		cNavMesh.stopMoveNavMesh();
-		prefabPlayer.animation.Stop();
-		prefabPlayer.animation.Play("Dead");
+		prefabPlayer.GetComponent<Animation>().Stop();
+		prefabPlayer.GetComponent<Animation>().Play("Dead");
 		if (deadHands != null)
 		{
 			deadHands.SetActive(true);
-			deadHands.transform.GetChild(0).animation.Play("Dead");
+			deadHands.transform.GetChild(0).GetComponent<Animation>().Play("Dead");
 		}
 		GameController.thisScript.offlineKolKill++;
 		Invoke("reset", 1f);
@@ -713,13 +713,13 @@ public class EnemyBehavior : EntityBehavior
 			return;
 		}
 		Ray ray = new Ray(base.transform.position + new Vector3(0f, 1f, 0f), playerTarget.transform.position - base.transform.position);
-		if (enemyWeapon.animation.IsPlaying("Shoot"))
+		if (enemyWeapon.GetComponent<Animation>().IsPlaying("Shoot"))
 		{
 			return;
 		}
-		enemyWeapon.animation.Play("Shoot");
+		enemyWeapon.GetComponent<Animation>().Play("Shoot");
 		weaponScript.shootParticle.SetActive(true);
-		weaponScript.audio.PlayOneShot(weaponScript.soundShoot);
+		weaponScript.GetComponent<AudioSource>().PlayOneShot(weaponScript.soundShoot);
 		if (checkAccuracy())
 		{
 			if (GameController.thisScript.myCar == null && GameController.thisScript.myHelic == null && !playerTarget.GetComponent<PlayerBehavior>().inCar)

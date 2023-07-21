@@ -67,7 +67,7 @@ public class CheckpointRunDriver2 : CheckpointRunPort
 	{
 		rootPoint = MissionManager.Instance.checkpointRoot;
 		rootPoint.SetActive(true);
-		checkPoints = rootPoint.transform.FindChild("m7").gameObject;
+		checkPoints = rootPoint.transform.Find("m7").gameObject;
 		checkPoints.SetActive(true);
 		checkPoints.transform.GetChild(0).gameObject.SetActive(true);
 		checkPoints.transform.GetChild(0).GetComponent<CheckPointBehavior>().canBeVisited = true;

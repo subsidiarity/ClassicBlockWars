@@ -31,7 +31,7 @@ public class RPG_Controller : MonoBehaviour
 
 	private void Update()
 	{
-		if (!(Camera.mainCamera == null))
+		if (!(Camera.main == null))
 		{
 			if (characterController == null)
 			{

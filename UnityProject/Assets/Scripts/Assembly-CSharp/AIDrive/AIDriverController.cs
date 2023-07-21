@@ -303,7 +303,7 @@ public class AIDriverController : MonoBehaviour
 			m_leftRightDistanceLength = Vector3.Distance(viewPointRightGO.transform.position, rightDirectionGO.transform.position);
 			m_leftRightSideDistanceLength = Vector3.Distance(centerPointRGO.transform.position, centerPointEndRGO.transform.position);
 			m_frontDistanceLength = Vector3.Distance(viewPoint.transform.position, viewPointEndGO.transform.position);
-			frontCollider = base.transform.FindChild("ViewPointCollider");
+			frontCollider = base.transform.Find("ViewPointCollider");
 			Vector3 localPosition = viewPoint.transform.localPosition;
 			localPosition.y += 0.1f;
 			frontCollider.transform.localPosition = localPosition;
@@ -318,7 +318,7 @@ public class AIDriverController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		m_currentSpeed = Mathf.Round(base.rigidbody.velocity.magnitude * 3.6f);
+		m_currentSpeed = Mathf.Round(base.GetComponent<Rigidbody>().velocity.magnitude * 3.6f);
 		if (m_currentSpeed > m_maxSpeed + 10f)
 		{
 			m_isBraking = true;

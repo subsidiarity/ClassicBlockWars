@@ -67,7 +67,7 @@ public class InputToEvent : MonoBehaviour
 	private GameObject RaycastObject(Vector2 screenPos)
 	{
 		RaycastHit hitInfo;
-		if (Physics.Raycast(base.camera.ScreenPointToRay(screenPos), out hitInfo, 200f))
+		if (Physics.Raycast(base.GetComponent<Camera>().ScreenPointToRay(screenPos), out hitInfo, 200f))
 		{
 			inputHitPos = hitInfo.point;
 			return hitInfo.collider.gameObject;

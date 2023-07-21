@@ -35,12 +35,12 @@ public class CheckPointBehavior : MonoBehaviour
 					nJGMapItem.enabled = !nJGMapItem.enabled;
 				}
 				nextCheckPoint.SetActive(true);
-				nextCheckPoint.renderer.material = currentMaterial;
+				nextCheckPoint.GetComponent<Renderer>().material = currentMaterial;
 				GameObject gameObject = nextCheckPoint.GetComponent<CheckPointBehavior>().nextCheckPoint;
 				if (gameObject != null)
 				{
 					gameObject.SetActive(true);
-					gameObject.renderer.material = nextPointMaterial;
+					gameObject.GetComponent<Renderer>().material = nextPointMaterial;
 				}
 			}
 			base.gameObject.SetActive(false);

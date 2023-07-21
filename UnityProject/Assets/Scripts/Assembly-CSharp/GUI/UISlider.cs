@@ -76,11 +76,11 @@ public class UISlider : UIProgressBar
 
 	protected override void OnStart()
 	{
-		GameObject go = ((!(mBG != null) || !(mBG.collider != null)) ? base.gameObject : mBG.gameObject);
+		GameObject go = ((!(mBG != null) || !(mBG.GetComponent<Collider>() != null)) ? base.gameObject : mBG.gameObject);
 		UIEventListener uIEventListener = UIEventListener.Get(go);
 		uIEventListener.onPress = (UIEventListener.BoolDelegate)Delegate.Combine(uIEventListener.onPress, new UIEventListener.BoolDelegate(OnPressBackground));
 		uIEventListener.onDrag = (UIEventListener.VectorDelegate)Delegate.Combine(uIEventListener.onDrag, new UIEventListener.VectorDelegate(OnDragBackground));
-		if (thumb != null && thumb.collider != null && (mFG == null || thumb != mFG.cachedTransform))
+		if (thumb != null && thumb.GetComponent<Collider>() != null && (mFG == null || thumb != mFG.cachedTransform))
 		{
 			UIEventListener uIEventListener2 = UIEventListener.Get(thumb.gameObject);
 			uIEventListener2.onPress = (UIEventListener.BoolDelegate)Delegate.Combine(uIEventListener2.onPress, new UIEventListener.BoolDelegate(OnPressForeground));

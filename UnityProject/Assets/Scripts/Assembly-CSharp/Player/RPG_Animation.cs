@@ -191,56 +191,56 @@ public class RPG_Animation : MonoBehaviour
 
 	private void Idle()
 	{
-		base.animation.CrossFade("idle");
+		base.GetComponent<Animation>().CrossFade("idle");
 	}
 
 	private void Walk()
 	{
-		base.animation.CrossFade("walk");
+		base.GetComponent<Animation>().CrossFade("walk");
 	}
 
 	private void StrafeForwardLeft()
 	{
-		base.animation.CrossFade("strafeforwardleft");
+		base.GetComponent<Animation>().CrossFade("strafeforwardleft");
 	}
 
 	private void StrafeForwardRight()
 	{
-		base.animation.CrossFade("strafeforwardright");
+		base.GetComponent<Animation>().CrossFade("strafeforwardright");
 	}
 
 	private void WalkBack()
 	{
-		base.animation.CrossFade("walkback");
+		base.GetComponent<Animation>().CrossFade("walkback");
 	}
 
 	private void StrafeBackLeft()
 	{
-		base.animation.CrossFade("strafebackleft");
+		base.GetComponent<Animation>().CrossFade("strafebackleft");
 	}
 
 	private void StrafeBackRight()
 	{
-		base.animation.CrossFade("strafebackright");
+		base.GetComponent<Animation>().CrossFade("strafebackright");
 	}
 
 	private void StrafeLeft()
 	{
-		base.animation.CrossFade("strafeleft");
+		base.GetComponent<Animation>().CrossFade("strafeleft");
 	}
 
 	private void StrafeRight()
 	{
-		base.animation.CrossFade("straferight");
+		base.GetComponent<Animation>().CrossFade("straferight");
 	}
 
 	public void Jump()
 	{
 		currentState = CharacterState.Jump;
-		if (base.animation.IsPlaying("jump"))
+		if (base.GetComponent<Animation>().IsPlaying("jump"))
 		{
-			base.animation.Stop("jump");
+			base.GetComponent<Animation>().Stop("jump");
 		}
-		base.animation.CrossFade("jump");
+		base.GetComponent<Animation>().CrossFade("jump");
 	}
 }

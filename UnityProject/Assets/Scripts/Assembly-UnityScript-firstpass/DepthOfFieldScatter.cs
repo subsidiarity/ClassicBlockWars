@@ -106,7 +106,7 @@ public class DepthOfFieldScatter : PostEffectsBase
 
 	public override void OnEnable()
 	{
-		camera.depthTextureMode |= DepthTextureMode.Depth;
+		GetComponent<Camera>().depthTextureMode |= DepthTextureMode.Depth;
 	}
 
 	public virtual void OnDisable()
@@ -142,7 +142,7 @@ public class DepthOfFieldScatter : PostEffectsBase
 	{
 		if (RuntimeServices.EqualityOperator(cbDrawArgs, null))
 		{
-			cbDrawArgs = new ComputeBuffer(1, 16, ComputeBufferType.DrawIndirect);
+			cbDrawArgs = new ComputeBuffer(1, 16, ComputeBufferType.IndirectArguments);
 			int[] data = new int[4] { 0, 1, 0, 0 };
 			cbDrawArgs.SetData(data);
 		}
@@ -154,7 +154,7 @@ public class DepthOfFieldScatter : PostEffectsBase
 
 	public virtual float FocalDistance01(float worldDist)
 	{
-		return camera.WorldToViewportPoint((worldDist - camera.nearClipPlane) * camera.transform.forward + camera.transform.position).z / (camera.farClipPlane - camera.nearClipPlane);
+		return GetComponent<Camera>().WorldToViewportPoint((worldDist - GetComponent<Camera>().nearClipPlane) * GetComponent<Camera>().transform.forward + GetComponent<Camera>().transform.position).z / (GetComponent<Camera>().farClipPlane - GetComponent<Camera>().nearClipPlane);
 	}
 
 	private void WriteCoc(RenderTexture fromTo, RenderTexture temp1, RenderTexture temp2, bool fgDilate)
@@ -194,7 +194,7 @@ public class DepthOfFieldScatter : PostEffectsBase
 		}
 		focalSize = Mathf.Clamp(focalSize, 0f, 2f);
 		internalBlurWidth = Mathf.Max(maxBlurSize, 0f);
-		focalDistance01 = ((!focalTransform) ? FocalDistance01(focalLength) : (camera.WorldToViewportPoint(focalTransform.position).z / camera.farClipPlane));
+		focalDistance01 = ((!focalTransform) ? FocalDistance01(focalLength) : (GetComponent<Camera>().WorldToViewportPoint(focalTransform.position).z / GetComponent<Camera>().farClipPlane));
 		dofHdrMaterial.SetVector("_CurveParams", new Vector4(1f, focalSize, aperture / 10f, focalDistance01));
 		RenderTexture renderTexture = null;
 		RenderTexture renderTexture2 = null;

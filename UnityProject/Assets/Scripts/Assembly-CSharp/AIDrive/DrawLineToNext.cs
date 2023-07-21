@@ -16,7 +16,7 @@ public class DrawLineToNext : MonoBehaviour
 		{
 			return;
 		}
-		color = base.renderer.sharedMaterial.color;
+		color = base.GetComponent<Renderer>().sharedMaterial.color;
 		string text = base.gameObject.name;
 		int num = text.LastIndexOf("_");
 		string text2 = text.Substring(0, num);
@@ -27,12 +27,12 @@ public class DrawLineToNext : MonoBehaviour
 			return;
 		}
 		string text3 = text2 + "_" + (result + 1);
-		Transform transform = base.gameObject.transform.parent.FindChild(text3);
+		Transform transform = base.gameObject.transform.parent.Find(text3);
 		if (transform != null)
 		{
 			if (show)
 			{
-				transform.renderer.sharedMaterial.color = base.renderer.sharedMaterial.color;
+				transform.GetComponent<Renderer>().sharedMaterial.color = base.GetComponent<Renderer>().sharedMaterial.color;
 				Debug.DrawLine(base.transform.position, transform.position, color);
 			}
 			DrawLineToNext component = transform.gameObject.GetComponent<DrawLineToNext>();

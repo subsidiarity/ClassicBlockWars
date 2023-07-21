@@ -6,10 +6,10 @@ public class ColliderFriction : MonoBehaviour
 
 	private void Start()
 	{
-		base.collider.material.staticFriction = frictionValue;
-		base.collider.material.staticFriction2 = frictionValue;
-		base.collider.material.dynamicFriction = frictionValue;
-		base.collider.material.dynamicFriction2 = frictionValue;
-		base.collider.material.bounciness = 0f;
+		base.GetComponent<Collider>().material.staticFriction = frictionValue;
+		//base.GetComponent<Collider>().material.staticFriction2 = frictionValue;
+		base.GetComponent<Collider>().material.dynamicFriction = frictionValue;
+		//base.GetComponent<Collider>().material.dynamicFriction2 = frictionValue;
+		base.GetComponent<Collider>().material.bounciness = 0f;
 	}
 }

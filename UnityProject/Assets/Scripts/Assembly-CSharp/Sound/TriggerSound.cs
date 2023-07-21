@@ -20,7 +20,7 @@ public class TriggerSound : MonoBehaviour
 
 	private void InitSound(out AudioSource myAudioSource, AudioClip myClip, float myVolume, bool looping)
 	{
-		myAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+		myAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 		myAudioSource.playOnAwake = false;
 		myAudioSource.clip = myClip;
 		myAudioSource.loop = looping;

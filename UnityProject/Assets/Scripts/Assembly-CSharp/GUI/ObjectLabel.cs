@@ -59,11 +59,11 @@ public class ObjectLabel : MonoBehaviour
 		}
 		try
 		{
-			if (!(target.collider != null))
+			if (!(target.GetComponent<Collider>() != null))
 			{
 				return;
 			}
-			offset = new Vector3(0f, target.collider.bounds.center.y - target.position.y, 0f);
+			offset = new Vector3(0f, target.GetComponent<Collider>().bounds.center.y - target.position.y, 0f);
 			if (target.tag.Equals("Player"))
 			{
 				offset = new Vector3(0f, 1f, 0f);

@@ -39,7 +39,9 @@ public static class NGUITools
 	{
 		get
 		{
-			return Application.platform != RuntimePlatform.WindowsWebPlayer && Application.platform != RuntimePlatform.OSXWebPlayer;
+			return true;
+			//return Application.platform != RuntimePlatform.WindowsWebPlayer
+			//	&& Application.platform != RuntimePlatform.OSXWebPlayer;
 		}
 	}
 
@@ -93,7 +95,7 @@ public static class NGUITools
 			}
 			if (mListener != null && mListener.enabled && GetActive(mListener.gameObject))
 			{
-				AudioSource audioSource = mListener.audio;
+				AudioSource audioSource = mListener.GetComponent<AudioSource>();
 				if (audioSource == null)
 				{
 					audioSource = mListener.gameObject.AddComponent<AudioSource>();
@@ -393,7 +395,7 @@ public static class NGUITools
 			for (int num2 = componentsInChildren.Length; i < num2; i++)
 			{
 				UIWidget uIWidget = componentsInChildren[i];
-				if (!(uIWidget.cachedGameObject != go) || !(uIWidget.collider != null))
+				if (!(uIWidget.cachedGameObject != go) || !(uIWidget.GetComponent<Collider>() != null))
 				{
 					num = Mathf.Max(num, uIWidget.depth);
 				}

@@ -67,7 +67,7 @@ public class TouchCamera : MonoBehaviour
 		{
 			offset = target.transform.position - cam.transform.position;
 		}
-		NGUICamera = UICamera.FindCameraForLayer(8).camera;
+		NGUICamera = UICamera.FindCameraForLayer(8).GetComponent<Camera>();
 		collideZone = base.gameObject.GetComponent<BoxCollider>();
 	}
 

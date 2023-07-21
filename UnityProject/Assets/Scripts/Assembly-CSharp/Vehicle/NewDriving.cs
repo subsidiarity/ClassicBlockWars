@@ -157,7 +157,7 @@ public class NewDriving : MonoBehaviour
 		{
 			wheelTurningParameter = 1;
 		}
-		base.rigidbody.centerOfMass = new Vector3(0f, centerOfMassY, 0f);
+		base.GetComponent<Rigidbody>().centerOfMass = new Vector3(0f, centerOfMassY, 0f);
 		oldForwardFriction = frWheelCollider.forwardFriction.stiffness;
 		oldSidewaysFriction = frWheelCollider.sidewaysFriction.stiffness;
 	}
@@ -180,7 +180,7 @@ public class NewDriving : MonoBehaviour
 	{
 		if (fonMenuClip != null)
 		{
-			fonMenuAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			fonMenuAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			fonMenuAudioSource.clip = fonMenuClip;
 			fonMenuAudioSource.loop = true;
 			fonMenuAudioSource.volume = 1f;
@@ -189,7 +189,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (backgroundClip != null)
 		{
-			backgroundAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			backgroundAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			backgroundAudioSource.clip = backgroundClip;
 			backgroundAudioSource.loop = true;
 			backgroundAudioSource.volume = 0.5f;
@@ -202,7 +202,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (brakeSound != null)
 		{
-			brakeAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			brakeAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			brakeAudioSource.clip = brakeSound;
 			brakeAudioSource.loop = true;
 			brakeAudioSource.volume = 0.175f;
@@ -210,7 +210,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (turboSound != null)
 		{
-			turboAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			turboAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			turboAudioSource.clip = turboSound;
 			turboAudioSource.loop = false;
 			turboAudioSource.volume = 0.25f;
@@ -218,7 +218,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (motorSound != null)
 		{
-			motorAudioSource = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			motorAudioSource = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			motorAudioSource.clip = motorSound;
 			motorAudioSource.loop = true;
 			motorAudioSource.volume = 0.25f;
@@ -227,7 +227,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (motorSoundLow != null)
 		{
-			motorAudioSourceLow = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			motorAudioSourceLow = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			motorAudioSourceLow.clip = motorSoundLow;
 			motorAudioSourceLow.loop = true;
 			motorAudioSourceLow.volume = 0.1f;
@@ -236,7 +236,7 @@ public class NewDriving : MonoBehaviour
 		}
 		if (motorSoundMid != null)
 		{
-			motorAudioSourceMid = base.gameObject.AddComponent("AudioSource") as AudioSource;
+			motorAudioSourceMid = base.gameObject.AddComponent<AudioSource>() as AudioSource;
 			motorAudioSourceMid.clip = motorSoundMid;
 			motorAudioSourceMid.loop = true;
 			motorAudioSourceMid.volume = 0.15f;
@@ -408,7 +408,7 @@ public class NewDriving : MonoBehaviour
 		{
 			rlWheelCollider.brakeTorque = FullBrakeTorque;
 			rrWheelCollider.brakeTorque = FullBrakeTorque;
-			if (Mathf.Abs(base.rigidbody.velocity.z) > 1f || Mathf.Abs(base.rigidbody.velocity.x) > 1f)
+			if (Mathf.Abs(base.GetComponent<Rigidbody>().velocity.z) > 1f || Mathf.Abs(base.GetComponent<Rigidbody>().velocity.x) > 1f)
 			{
 				SetFriction(brakingForwardFriction, brakingSidewaysFriction, brakingSidewaysFrictionBackward);
 				SetBrakeEffects(true);
@@ -476,7 +476,7 @@ public class NewDriving : MonoBehaviour
 			WheelHit hit;
 			if (rlWheelCollider.GetGroundHit(out hit))
 			{
-				DustL.particleEmitter.emit = true;
+				DustL.GetComponent<ParticleEmitter>().emit = true;
 				flag = true;
 				Vector3 point = hit.point;
 				point.y += 0.1f;
@@ -490,12 +490,12 @@ public class NewDriving : MonoBehaviour
 			}
 			else
 			{
-				DustL.particleEmitter.emit = false;
+				DustL.GetComponent<ParticleEmitter>().emit = false;
 				lastSkidmarkPosL = Vector3.zero;
 			}
 			if (rrWheelCollider.GetGroundHit(out hit))
 			{
-				DustR.particleEmitter.emit = true;
+				DustR.GetComponent<ParticleEmitter>().emit = true;
 				flag = true;
 				Vector3 point = hit.point;
 				point.y += 0.1f;
@@ -509,7 +509,7 @@ public class NewDriving : MonoBehaviour
 			}
 			else
 			{
-				DustR.particleEmitter.emit = false;
+				DustR.GetComponent<ParticleEmitter>().emit = false;
 				lastSkidmarkPosR = Vector3.zero;
 			}
 			if (!isPlayingSound && flag)
@@ -536,8 +536,8 @@ public class NewDriving : MonoBehaviour
 			{
 				brakeAudioSource.Stop();
 			}
-			DustL.particleEmitter.emit = false;
-			DustR.particleEmitter.emit = false;
+			DustL.GetComponent<ParticleEmitter>().emit = false;
+			DustR.GetComponent<ParticleEmitter>().emit = false;
 			lastSkidmarkPosL = Vector3.zero;
 			lastSkidmarkPosR = Vector3.zero;
 		}

@@ -188,7 +188,7 @@ public class Weapon : MonoBehaviour
 	{
 		if (isWeaponReady() && soundHit != null && settings.soundEnabled)
 		{
-			base.audio.PlayOneShot(soundHit);
+			base.GetComponent<AudioSource>().PlayOneShot(soundHit);
 		}
 	}
 
@@ -196,7 +196,7 @@ public class Weapon : MonoBehaviour
 	{
 		if (!settings.offlineMode && !currentPlayer.photonView.isMine && !shootIsPlaying() && settings.soundEnabled)
 		{
-			base.audio.PlayOneShot(soundHit);
+			base.GetComponent<AudioSource>().PlayOneShot(soundHit);
 		}
 	}
 
@@ -220,7 +220,7 @@ public class Weapon : MonoBehaviour
 	{
 		if (isWeaponReady() && !weaponAnimation.isPlaying)
 		{
-			base.audio.PlayOneShot(soundEmpty);
+			base.GetComponent<AudioSource>().PlayOneShot(soundEmpty);
 			weaponAnimation.Play("Empty");
 		}
 	}
@@ -231,7 +231,7 @@ public class Weapon : MonoBehaviour
 		{
 			if (settings.soundEnabled)
 			{
-				base.audio.PlayOneShot(soundReload);
+				base.GetComponent<AudioSource>().PlayOneShot(soundReload);
 			}
 			weaponAnimation.Play("Reload");
 		}
@@ -274,7 +274,7 @@ public class Weapon : MonoBehaviour
 			weaponAnimation.Play("Shoot");
 			if (settings.soundEnabled)
 			{
-				base.audio.PlayOneShot(soundShoot);
+				base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 			}
 		}
 	}
@@ -285,7 +285,7 @@ public class Weapon : MonoBehaviour
 		{
 			if (settings.soundEnabled)
 			{
-				base.audio.PlayOneShot(soundReload);
+				base.GetComponent<AudioSource>().PlayOneShot(soundReload);
 			}
 			weaponAnimation.Play("Reload");
 		}
@@ -317,7 +317,7 @@ public class Weapon : MonoBehaviour
 				}
 				if (settings.soundEnabled)
 				{
-					base.audio.PlayOneShot(soundShoot);
+					base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 				}
 				weaponAnimation.Play("Shoot");
 				if (!settings.offlineMode && !currentPlayer.photonView.isMine)
@@ -351,7 +351,7 @@ public class Weapon : MonoBehaviour
 			{
 				if (settings.soundEnabled)
 				{
-					base.audio.PlayOneShot(soundShoot);
+					base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 				}
 				weaponAnimation.Play(shootAnimArray[currentShootIndex]);
 				nextShootAnim();
@@ -374,7 +374,7 @@ public class Weapon : MonoBehaviour
 					}
 					if (settings.soundEnabled)
 					{
-						base.audio.PlayOneShot(soundShoot);
+						base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 					}
 					weaponAnimation.Play("Shoot");
 					if (!settings.offlineMode && !currentPlayer.photonView.isMine)
@@ -404,7 +404,7 @@ public class Weapon : MonoBehaviour
 				}
 				if (settings.soundEnabled)
 				{
-					base.audio.PlayOneShot(soundShoot);
+					base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 				}
 				weaponAnimation.Play("Shoot");
 				currentPlayer.shoot(damage);

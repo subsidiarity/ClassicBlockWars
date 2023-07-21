@@ -16,7 +16,7 @@ public class ExplosionBehavior : MonoBehaviour
 			1000,
 			idMachine,
 			false,
-			collider.gameObject
+			GetComponent<Collider>().gameObject
 		);
 
 		this.enabled = false;

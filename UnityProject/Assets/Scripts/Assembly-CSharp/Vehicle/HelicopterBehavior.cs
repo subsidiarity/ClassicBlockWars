@@ -102,7 +102,7 @@ public class HelicopterBehavior : EntityBehavior
 		initialHelicPosition = base.transform.position;
 		initialRotation = base.transform.rotation;
 		startHealth = health;
-		animVjigVjig = objHelic.animation["Engine_on"];
+		animVjigVjig = objHelic.GetComponent<Animation>()["Engine_on"];
 		animVjigVjig.speed = 0f;
 	}
 
@@ -328,7 +328,7 @@ public class HelicopterBehavior : EntityBehavior
 		HOTween.Kill(animVjigVjig);
 		if (objHelic != null)
 		{
-			objHelic.animation.Stop();
+			objHelic.GetComponent<Animation>().Stop();
 		}
 	}
 
@@ -509,7 +509,7 @@ public class HelicopterBehavior : EntityBehavior
 	private void animationHelicUpOnline()
 	{
 		Debug.Log("animationHelicUpOnline");
-		objHelic.animation.CrossFade(animVjigVjig.name);
+		objHelic.GetComponent<Animation>().CrossFade(animVjigVjig.name);
 		HOTween.Kill(animVjigVjig);
 		HOTween.To(animVjigVjig, 2f, new TweenParms().Prop("speed", 4f).Ease(EaseType.Linear));
 		CancelInvoke("StopAnimationFly");

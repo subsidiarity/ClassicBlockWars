@@ -117,7 +117,7 @@ public class PostEffectsBase : MonoBehaviour
 		{
 			if (needDepth)
 			{
-				camera.depthTextureMode |= DepthTextureMode.Depth;
+				GetComponent<Camera>().depthTextureMode |= DepthTextureMode.Depth;
 			}
 			result = 1;
 		}

@@ -47,7 +47,7 @@ public class UIAnchor : MonoBehaviour
 	private void Awake()
 	{
 		mTrans = base.transform;
-		mAnim = base.animation;
+		mAnim = base.GetComponent<Animation>();
 		UICamera.onScreenResize = (UICamera.OnScreenResize)Delegate.Combine(UICamera.onScreenResize, new UICamera.OnScreenResize(ScreenSizeChanged));
 	}
 

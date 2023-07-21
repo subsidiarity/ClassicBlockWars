@@ -1,5 +1,6 @@
 using System;
 
+// Main Camera clipping is 120
 public class CompilationSettings
 {
     // Removes the bad word filter from game rooms.

@@ -181,7 +181,7 @@ public class LeanTween : MonoBehaviour
 					tween.from.x = trans.localScale.z;
 					break;
 				case TweenAction.ALPHA:
-					tween.from.x = trans.gameObject.renderer.material.color.a;
+					tween.from.x = trans.gameObject.GetComponent<Renderer>().material.color.a;
 					break;
 				case TweenAction.MOVE_LOCAL:
 					tween.from = trans.localPosition;
@@ -453,7 +453,7 @@ public class LeanTween : MonoBehaviour
 					}
 					else if (tweenAction == 15)
 					{
-						Material[] materials = trans.gameObject.renderer.materials;
+						Material[] materials = trans.gameObject.GetComponent<Renderer>().materials;
 						foreach (Material material in materials)
 						{
 							material.color = new Color(material.color.r, material.color.g, material.color.b, val);
@@ -599,7 +599,7 @@ public class LeanTween : MonoBehaviour
 					{
 						if (tween.hasPhysics)
 						{
-							trans.gameObject.rigidbody.MoveRotation(Quaternion.Euler(newVect));
+							trans.gameObject.GetComponent<Rigidbody>().MoveRotation(Quaternion.Euler(newVect));
 						}
 						else
 						{
@@ -843,7 +843,7 @@ public class LeanTween : MonoBehaviour
 		tween.loopType = LeanTweenType.once;
 		tween.direction = 1f;
 		tween.hasInitiliazed = false;
-		tween.hasPhysics = gameObject.rigidbody != null;
+		tween.hasPhysics = gameObject.GetComponent<Rigidbody>() != null;
 		if (optional != null)
 		{
 			object obj = optional["ease"];

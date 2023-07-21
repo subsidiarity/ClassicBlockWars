@@ -90,14 +90,14 @@ public class weaponGrenade : Photon.MonoBehaviour
 		}
 		if (settings.soundEnabled && soundShoot != null)
 		{
-			base.audio.PlayOneShot(soundShoot);
+			base.GetComponent<AudioSource>().PlayOneShot(soundShoot);
 		}
 		if ((settings.offlineMode || base.photonView.isMine) && GameController.thisScript.playerScript.currentTarget != null)
 		{
 			Vector3 worldPosition = GameController.thisScript.playerScript.currentTarget.transform.position + new Vector3(0f, 1.45f, 0f);
 			base.transform.LookAt(worldPosition);
 		}
-		base.rigidbody.isKinematic = false;
+		base.GetComponent<Rigidbody>().isKinematic = false;
 		InvokeRepeating("constantForceForFly", 0f, 1f);
 		isThrow = true;
 		Invoke("ExplosionRocket", explosionTimer);
@@ -107,8 +107,8 @@ public class weaponGrenade : Photon.MonoBehaviour
 	{
 		if (isRocket)
 		{
-			base.rigidbody.velocity = Vector3.zero;
-			base.rigidbody.AddRelativeForce(new Vector3(0f, 0f, 35f), ForceMode.VelocityChange);
+			base.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			base.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0f, 0f, 35f), ForceMode.VelocityChange);
 		}
 	}
 
@@ -126,9 +126,9 @@ public class weaponGrenade : Photon.MonoBehaviour
 				GrenadeThrowOnline();
 			}
 			base.gameObject.transform.localRotation = GameController.thisScript.myPlayer.transform.localRotation;
-			base.rigidbody.isKinematic = false;
-			base.rigidbody.AddRelativeForce(new Vector3(0f, 1f, 3.5f) * forceThrow, ForceMode.Impulse);
-			base.rigidbody.angularVelocity = new Vector3(0f, 1f, 3f) * 90f;
+			base.GetComponent<Rigidbody>().isKinematic = false;
+			base.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0f, 1f, 3.5f) * forceThrow, ForceMode.Impulse);
+			base.GetComponent<Rigidbody>().angularVelocity = new Vector3(0f, 1f, 3f) * 90f;
 			if (isDetonator)
 			{
 				GameController.thisScript.playerScript.AddDentonatorGrenadeToList(this);
@@ -265,7 +265,7 @@ public class weaponGrenade : Photon.MonoBehaviour
 				target = collision.gameObject.GetComponent<EntityBehavior>();
 				base.gameObject.transform.parent = collision.gameObject.transform;
 				colliderGrenade.enabled = false;
-				base.rigidbody.isKinematic = true;
+				base.GetComponent<Rigidbody>().isKinematic = true;
 				if (colliderGrenade != null && colliderGrenade.enabled)
 				{
 					colliderGrenade.enabled = false;
@@ -317,15 +317,15 @@ public class weaponGrenade : Photon.MonoBehaviour
 	private void ExplosionRocket()
 	{
 		getDamage();
-		base.rigidbody.isKinematic = false;
-		base.rigidbody.velocity = Vector3.zero;
-		base.rigidbody.isKinematic = true;
+		base.GetComponent<Rigidbody>().isKinematic = false;
+		base.GetComponent<Rigidbody>().velocity = Vector3.zero;
+		base.GetComponent<Rigidbody>().isKinematic = true;
 	}
 
 	[RPC]
 	private void StartLongDamage(Vector3 point, Vector3 vectorNormal)
 	{
-		base.rigidbody.isKinematic = true;
+		base.GetComponent<Rigidbody>().isKinematic = true;
 		if (colliderGrenade != null && colliderGrenade.enabled)
 		{
 			colliderGrenade.enabled = false;
