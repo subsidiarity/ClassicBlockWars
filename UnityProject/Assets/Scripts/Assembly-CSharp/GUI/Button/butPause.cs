@@ -6,6 +6,5 @@ public class butPause : MonoBehaviour
 	{
 		settings.playSoundButton();
 		GameController.thisScript.pause();
-		MissionManager.Instance.CheckPauseButtons();
 	}
 }
