@@ -92,35 +92,35 @@ public class NewDriving : MonoBehaviour
 
 	public AudioSource turboAudioSource;
 
-	private WheelFrictionCurve frForwardFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve frForwardFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve flForwardFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve flForwardFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve rrForwardFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve rrForwardFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve rlForwardFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve rlForwardFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve frSidewaysFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve frSidewaysFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve flSidewaysFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve flSidewaysFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve rrSidewaysFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve rrSidewaysFriction = default(WheelFrictionCurve);
 
-	private WheelFrictionCurve rlSidewaysFriction = default(WheelFrictionCurve);
+	public WheelFrictionCurve rlSidewaysFriction = default(WheelFrictionCurve);
 
-	private float oldForwardFriction;
+	public float oldForwardFriction;
 
-	private float oldSidewaysFriction;
+	public float oldSidewaysFriction;
 
-	private float brakingForwardFriction = 0.03f;
+	public float brakingForwardFriction = 0.03f;
 
-	private float brakingSidewaysFriction = 0.03f;
+	public float brakingSidewaysFriction = 0.03f;
 
-	private float brakingSidewaysFrictionBackward = 0.01f;
+	public float brakingSidewaysFrictionBackward = 0.01f;
 
-	private float stopForwardFriction = 1f;
+	public float stopForwardFriction = 1f;
 
-	private float stopSidewaysFriction = 1f;
+	public float stopSidewaysFriction = 1f;
 
 	public AudioSource brakeAudioSource;
 
@@ -277,10 +277,10 @@ public class NewDriving : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		currentSpeed = (float)Math.PI * 2f * flWheelCollider.radius * flWheelCollider.rpm * 60f / 1000f;
+		currentSpeed = (float)Math.PI * 2f * flWheelCollider.radius * flWheelCollider.rpm * 60f / 47500f;
 		currentSpeed = Mathf.Round(currentSpeed);
 		float num = Vector3.Distance(predPosCar, base.gameObject.transform.position);
-		currentSpeedReal = (int)(CompilationSettings.CarTurningSensitivity * num / Time.fixedDeltaTime);
+		currentSpeedReal = (int)(num / Time.fixedDeltaTime);
 		predPosCar = base.gameObject.transform.position;
 		Vector2 input = KeyboardManager.GetMovmentVector();
 		if ((currentSpeed > 0f && input.y < 0f) || (currentSpeed < 0f && input.y > 0f))
@@ -299,19 +299,6 @@ public class NewDriving : MonoBehaviour
 			{
 				float num2 = 0f;
 
-				// /* Checking for keyboard input. */
-				// if (CompilationSettings.CarUseKeyboard)
-				// {
-				// 	if (Input.GetKey(KeyCode.S))
-				// 	{
-				// 		num2 = -1.0f;
-				// 	}
-				// 	else if (Input.GetKey(KeyCode.W))
-				// 	{
-				// 		num2 = 1.0f;
-				// 	}
-				// }
-
 				num2 = input.y;
 
 				if (isBack)
@@ -323,8 +310,8 @@ public class NewDriving : MonoBehaviour
 					num2 = 1f;
 				}
 
-				flWheelCollider.motorTorque = maxTorque * num2;
-				frWheelCollider.motorTorque = maxTorque * num2;
+				flWheelCollider.motorTorque = maxTorque * num2 * CompilationSettings.CarSpeedMultiplier;
+				frWheelCollider.motorTorque = maxTorque * num2 * CompilationSettings.CarSpeedMultiplier;
 			}
 			else
 			{
@@ -339,8 +326,8 @@ public class NewDriving : MonoBehaviour
 			flWheelCollider.motorTorque = 0f;
 			frWheelCollider.motorTorque = 0f;
 		}
-		float value = currentSpeed / maxSpeed * CompilationSettings.CarTurningSpeedMultiplier;
-		value = Mathf.Clamp(value, 0f, CompilationSettings.CarTurningMaximumSpeed);
+		float value = currentSpeed / maxSpeed;
+		value = Mathf.Clamp(value, 0f, 1.0f);
 		float num3 = maxSteerAngle - (maxSteerAngle - maxSpeedSteerAngle) * value;
 		if ((settings.offlineMode && carScript.playerInCar) || (!settings.offlineMode && carScript.idPlayerInCar == GameController.thisScript.playerScript.photonView.viewID))
 		{
